@@ -5,26 +5,26 @@ body{
     background-color: #F5F5F7;
 }
 
-.container{
-    max-width: 1512px;
-    margin: 0 auto;
-    height: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* border: 1px solid red; */
-
-    background-color: rgb(212, 202, 223);
-}
-
-
 
 .header {
     width: 100%;
     /* height: 570px; */
     height: 70vh;
     background-color: #03B59B;
+}
+
+
+.container{
+    max-width: 1512px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+
+    background-color: rgb(212, 202, 223);
 }
 
 .nav {
