@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 00;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size-grande: 20px;
+}
+
+p {
+    font-size: var(--font-size-grande);
+    font-size: 20px;
+
+}

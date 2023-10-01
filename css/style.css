@@ -1,0 +1,84 @@
+
+body{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #F5F5F7;
+}
+
+.container{
+    max-width: 1512px;
+    margin: 0 auto;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+
+    background-color: rgb(212, 202, 223);
+}
+
+
+
+.header {
+    width: 100%;
+    /* height: 570px; */
+    height: 70vh;
+    background-color: #03B59B;
+}
+
+.nav {
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+
+}
+
+
+
+/*  
+
+.header-container{
+    background-color: rgba(117,215,214,255);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-filho1{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-filho1-logo{
+    flex: 1;
+}
+.header-filho1-links{
+    flex: 1;
+}
+
+.header-links{
+    text-align: end;
+}
+.header-links a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+
+
+.header-filho2{
+    display: flex;
+    flex-direction: ;
+}
+
+.header-filho2-sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-butto-sec{
+    display: block;
+}
+
+ */
