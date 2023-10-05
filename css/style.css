@@ -4,7 +4,6 @@ body{
     width: 100%;
     background-color: #F5F5F7;
     font-family: Roboto, "Helvetica Neue", Helvetica;
-    
 } 
 
 
@@ -25,9 +24,9 @@ h2{
 h4{
     width: 50%;
 }
-
 p{
-    width: 50%;
+    font-size: 15px;
+   
 }
 
 
