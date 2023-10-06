@@ -12,19 +12,17 @@
 .FeaturesAndBenefits{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
     width: 100%;
     border: solid 2px rgb(0, 8, 255);
    
 }
-.features, .benefits{
+.features, .benefits, .fetures-section-image{
     border: solid 2px red;
-    padding: 40px;
+    
 }
 
-.fetures-section-image img{
-    border: solid 5px purple;
-}
+
 
 
 /*---------- Nosso Time section-------------------*/

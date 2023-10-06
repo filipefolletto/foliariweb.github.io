@@ -9,9 +9,19 @@
     --font-size-grande: 20px;
 }
 
+h2{
+    width: 100%;
+}
+
+h4{
+    width: 50%;
+}
+
+
 p {
     font-size: var(--font-size-grande);
     font-size: 15px;
+<<<<<<< HEAD
 }
 
 body{
@@ -38,3 +48,24 @@ h2{
 h4{
     width: 50%;
 }
+=======
+
+}
+body{
+    width: 100%;
+    background-color: #F5F5F7;
+    
+} 
+
+
+button{
+    border-radius: 30px;
+    background: #B9E4FA;
+    border-color: transparent;
+    width: 254px;
+    height: 44px;
+    
+    
+}
+
+>>>>>>> brancheFolleto
