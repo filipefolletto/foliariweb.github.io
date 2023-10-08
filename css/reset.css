@@ -1,32 +1,14 @@
 *{
-    margin: 0;
-    padding: 00;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Roboto, "Helvetica Neue", Helvetica;
 }
 
-:root {
-    --font-size-grande: 20px;
-}
-
-h2{
-    width: 100%;
-}
-
-h4{
-    width: 50%;
-}
-
-
-p {
-    font-size: var(--font-size-grande);
-    font-size: 15px;
-}
-
 body{
-    width: 100%;
+     width: 100%;
     background-color: #F5F5F7;
-    
+    font-family: Roboto, "Helvetica Neue", Helvetica;
 } 
 
 
@@ -46,4 +28,18 @@ h2{
 
 h4{
     width: 50%;
+    color: #212121;
+    font-size: 30px;
+    line-height: 44px;
 }
+
+p{
+    color: #4D4D4D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+

@@ -1,28 +1,60 @@
 .linhas-colchoes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
+    width: 100%;
+    /* display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap; 
+    /* max-width: 1512px; */
+    /* margin: 0 auto; */
+    border: solid 5px rgb(0, 60, 255);
 }
 
-.nossas-linhas{
-    width: 100%;
-    
+.linhas-size{
+    max-width: 1512px;
+    margin: 0 auto;
 }
+
+
+
+
+
+.linhas-size2{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+
+
+
+.nossas-linhas{
+    padding: 60px 0px 20px 60px;
+    font-size: 45px;
+    border: solid 5px rgb(251, 0, 255);
+}
+
 .FeaturesAndBenefits{
     display: flex;
     flex-direction: row;
-    
-    width: 100%;
-    border: solid 2px rgb(0, 8, 255);
-   
+    align-content: center;
+    border: solid 5px gold;
+
 }
+
 .features, .benefits, .fetures-section-image{
-    border: solid 2px red;
-    
+    flex: 1;
+    align-items: center;
+    padding: 0% 5% 0% 5% ;
+    /* line-height: 30px; */
+    border: solid 1px red;
+   
+
 }
-
-
+.features h4, .benefits h4{
+    padding-bottom: 26px;
+}
+.features p, .benefits p{
+    padding-bottom: 13px;
+}
 
 
 /*---------- Nosso Time section-------------------*/
@@ -51,7 +83,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .ourTeam-H4{
@@ -153,4 +184,94 @@
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
+}
+
+
+
+
+
+
+
+/* section AVALIACOES */
+
+.section-avaliacoes{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.container-avaliacoes{
+    max-width: 1512px;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(167, 220, 11);
+}
+
+.conteudo-avaliacoes-logo, .conteudo-avaliacoes-nota{
+    display: flex;
+    flex-wrap: nowrap; 
+    
+}
+.conteudo-avaliacoes-logo{
+    border: 2px solid red;
+}
+.conteudo-avaliacoes-nota{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+
+.logoipsum-white, .logoipsum-dark{
+    flex: 1;
+}
+
+.nota-avaliacoes-numero, .nota-avaliacoes-letra{
+    flex: 1;
+    flex-direction: column;
+    border: 2px solid orange;
+}
+.nota-avaliacoes-titulos{
+    flex: 2;
+}
+
+.div48, .div2394, .divAA, .div125Revews, .TrustedByNumerous, .nomeERelato{
+    border: 2px solid black;
+    height: 50%;
+}
+
+.text-48-AA{
+    color: #212121;
+    font-size: 45px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-estrelas{
+    color: #F0AD4E;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+.text-ratings-reviews{
+    color: #212121;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 15px;
+    word-wrap: break-word;
+
+    text-align: center;
+    margin-top: 10px;
 }
