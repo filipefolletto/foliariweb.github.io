@@ -1,15 +1,47 @@
 *{
-    margin: 0;
-    padding: 00;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 :root {
     --font-size-grande: 20px;
 }
+body{
+     width: 100%;
+    background-color: #F5F5F7;
+    font-family: Roboto, "Helvetica Neue", Helvetica;
+} 
 
-p {
-    font-size: var(--font-size-grande);
-    font-size: 20px;
 
+button{
+    border-radius: 30px;
+    background: #B9E4FA;
+    border-color: transparent;
+    width: 254px;
+    height: 44px;
+    
+    
 }
+
+h2{
+    width: 100%;
+}
+
+h4{
+    width: 50%;
+    color: #212121;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+p{
+    color: #4D4D4D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+
