@@ -26,7 +26,6 @@
 .FeaturesAndBenefits{
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     align-content: center;
     border: solid 5px gold;
 
@@ -47,19 +46,6 @@
 .features p, .benefits p{
     padding-bottom: 13px;
 }
-=======
-    
-    width: 100%;
-    border: solid 2px rgb(0, 8, 255);
-   
-}
-.features, .benefits, .fetures-section-image{
-    border: solid 2px red;
-    
-}
-
-
->>>>>>> 04ee330f3f79303f7e17daa7a0967b5028c5ea8b
 
 
 /*---------- Nosso Time section-------------------*/
