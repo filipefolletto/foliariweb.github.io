@@ -2,27 +2,50 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    max-width: 1512px;
+    /* margin: 0 auto; */
+    border: solid 5px rgb(0, 60, 255);
 }
 
+/* .linhas-size{
+    max-width: 1512px;
+    padding: 0 auto;
+} */
+/* 
+.linhas-size2{
+ width: 100%;
+} */
+
+
 .nossas-linhas{
-    width: 100%;
-    
+    padding: 60px 0px 20px 60px;
+    font-size: 45px;
+    border: solid 5px rgb(251, 0, 255);
 }
+
 .FeaturesAndBenefits{
     display: flex;
     flex-direction: row;
-    
-    width: 100%;
-    border: solid 2px rgb(0, 8, 255);
-   
+    align-content: center;
+    border: solid 5px gold;
+
 }
+
 .features, .benefits, .fetures-section-image{
-    border: solid 2px red;
-    
+    flex: 1;
+    align-items: center;
+    padding: 0% 5% 0% 5% ;
+    /* line-height: 30px; */
+    border: solid 1px red;
+   
+
 }
-
-
+.features h4, .benefits h4{
+    padding-bottom: 26px;
+}
+.features p, .benefits p{
+    padding-bottom: 13px;
+}
 
 
 /*---------- Nosso Time section-------------------*/
@@ -51,7 +74,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .ourTeam-H4{
