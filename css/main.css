@@ -12,7 +12,7 @@
     border: 1px solid rgb(113, 3, 100);
 }
 
-.div-nossaLinhas, .div-container-produtos{
+.div-nossasLinhas, .div-container-produtos{
     display: flex;
     flex-direction: row;
     /* flex-wrap: nowrap; */
@@ -23,7 +23,7 @@
 /* .div-container-produtos{
 
 } */
-.div-nossaLinhas h3{
+.div-nossasLinhas h2{
     color: #212121;
     font-size: 45px;
     font-family: Roboto;
@@ -31,23 +31,28 @@
     line-height: 27px;
     word-wrap: break-word;
 
-    padding: 60px 0 83px 3px;
+    padding: 60px 0 83px 0;
 }
+
+
+
+
+                /* Usado no JS */
 
 .card-produto{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     /* alterar essa margin */
-    margin:1000px;
+    margin-right: 57px;
 }
 
-.card-img{
+.div-card-img{
     width: 347px;
     height: 347px;
 }
 
-.card-img img {
+.imgProduto {
     width: 100%;
     height: 100%;
     /* border-radius: 20px; */
@@ -55,12 +60,12 @@
     background-size: cover;
 }
 
-.card-nome-produto{
+.div-nome-produto{
     display: flex;
     justify-content: flex-start;
 }
 
-.card-nome-produto h4{
+.nomeProduto{
     color: black;
     font-size: 32px;
     font-family: Roboto;

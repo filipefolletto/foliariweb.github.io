@@ -1,17 +1,18 @@
+const paiCard = document.querySelector(".div-container-produtos")
 
-
-const fotos = [ 'acessorios',
-'BOXES',
-'CABECEIRA',
+const fotos = [ 
+'acessorios',
+'boxes',
+'cabeceiras',
 'cadeiras',
-'DREAMSPET',
-'POLTRONAS',
-'VESTUÁRIO',]
+'dreamspet',
+'poltronas',
+'vestuario',]
 
 
-fotos.forEach(card => {
-    card = createElement()
-});
+// fotos.forEach(card => {
+//     card = createElement()
+// });
 
 
 
@@ -22,17 +23,55 @@ const createElement = (tag, className) => {
 }
 
 const creatCard = (personagem) => {
-    const card = createElement('div', 'card')
-    
-    front.style.backgroundImage = `url('../images/${fotos}.png')`
-    card.className = "card"
+    const card = createElement('div', 'card-produto')
+
+    const divCardImg = createElement('div', 'div-card-img')
+    const imgProduto = createElement('img', 'imgProduto')
+    // imgProduto.src = `url(../img/${fotos}.png)`
+    imgProduto.src = `../img/${fotos[1]}.png`
   
 
-    grid.appendChild(card)
-    card.setAttribute('data-personagem', personagem)
+    const divNomeProduto = createElement('div', 'div-nome-produto')
+    const h4Nome = createElement('h4', 'nomeProduto')
+    h4Nome.innerHTML = 'ahhahahah'
 
-    return card
+    
+    
+    // front.style.backgroundImage = `url('../images/${fotos}.png')`
+
+    divCardImg.appendChild(imgProduto)
+    divNomeProduto.appendChild(h4Nome)
+
+    card.appendChild(divCardImg)
+    card.appendChild(divNomeProduto)
+
+    paiCard.appendChild(card)
+    
+    // console.log(paiCard)
+    return paiCard
+
+    // paiCard .appendChild(card)
+    // card.setAttribute('data-personagem', personagem)
+    
 }
+
+creatCard()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const createElement = (tag, className) => {
 //     const element = document.createElement(tag)
