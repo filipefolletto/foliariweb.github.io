@@ -38,8 +38,8 @@
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-
-    margin-left: 57px;
+    /* alterar essa margin */
+    margin:1000px;
 }
 
 .card-img{

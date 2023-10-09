@@ -1,0 +1,17 @@
+.div-container-produtos{
+  
+}
+.galeria-de-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.Ellipse1{
+    
+    background: rgba(205.26, 205.26, 205.26, 0.50); 
+    border-radius: 9999px
+}
