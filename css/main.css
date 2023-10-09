@@ -20,9 +20,10 @@
     margin-left: 33px;
 }
 
-/* .div-container-produtos{
+.div-container-produtos{
+    overflow: auto;
+}
 
-} */
 .div-nossasLinhas h2{
     color: #212121;
     font-size: 45px;
@@ -32,6 +33,7 @@
     word-wrap: break-word;
 
     padding: 60px 0 83px 0;
+    
 }
 
 
@@ -74,5 +76,6 @@
     word-wrap: break-word;
 
     padding: 25px 0 32px 3px;
+    text-transform: capitalize;
 }
 
