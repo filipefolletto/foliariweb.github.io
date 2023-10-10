@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, "Helvetica Neue", Helvetica;
+}
+
+body{
+     width: 100%;
+    background-color: #F5F5F7;
+    font-family: Roboto, "Helvetica Neue", Helvetica;
+    border: 1px solid black;
+} 
+
+/* ----------------- */
+
+main{
+    max-width: 1512px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(113, 3, 100);
+}
+
+/* --------------- */
+
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid orange;
+}
+
+.div-logo-foliari{
+    border: 3px solid black;
+}
+
+.img-logo{
+    border: 3px solid blue;
+}
+
+
+.div-links-header{
+    border: 3px solid green;
+    
+}
+
+
+/* ----------- */
+
+.section-grid{
+    width: 100%;
+    border: 3px solid rgb(89, 5, 106);
+}
+
+.section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+    /* max-width: 800px; */
+    column-gap: 32px;
+    row-gap: 48px ;
+    /* background-color: red; */
+    /* margin: 0 auto; */
+   
+}
+
+/* 
+-----A propriedade grid-template-columns é usada para definir as colunas em um layout de grade CSS. A declaração repeat(5, 1fr) é uma forma abreviada de especificar a largura das colunas em uma grade.
+-----Repeat(5, 1fr): Esta parte da declaração diz ao CSS que você deseja criar 5 colunas, cada uma com a mesma largura. O número 5 indica a quantidade de colunas, e 1fr indica que cada coluna deve ter uma fração igual do espaço disponível no contêiner. 
+-----A unidade fr (fração) é uma unidade de medida usada em layouts de grade e flexíveis. Quando você define as colunas com 1fr, você está dizendo que deseja dividir o espaço disponível igualmente entre as 5 colunas. Se o contêiner tiver 500 pixels de largura, por exemplo, cada coluna terá 100 pixels de largura (500 pixels divididos por 5 colunas).*/
+
+
+
+
+/* -----CARD-------- */
+
+.cards-grid{
+    /* aspect-ratio: 3/4; */
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    height: 448px;
+    border: 2px solid red;
+
+    
+    padding: 22px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
