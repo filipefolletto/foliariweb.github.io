@@ -25,6 +25,9 @@ const creatCard = (imgs) => {
     const imgProduto = createElement('img', 'imgProduto')
     // imgProduto.src = `url(../img/${fotos}.png)`
     imgProduto.src = `../img/${imgs}.png`
+
+    // const saibaMais = createElement('button', 'saibaMais')
+    // saibaMais.innerHTML = `Saiba mais`
   
 
     const divNomeProduto = createElement('div', 'div-nome-produto')
@@ -33,13 +36,23 @@ const creatCard = (imgs) => {
 
     
     
+
+
+
+    
+    
     // front.style.backgroundImage = `url('../images/${fotos}.png')`
 
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
 
-    card.appendChild(divCardImg)
     card.appendChild(divNomeProduto)
+    card.appendChild(divCardImg)
+    // card.appendChild(saibaMais)
+    
+
+    
+
 
     
     // console.log(paiCard)

@@ -1,17 +1,23 @@
-.div-container-produtos{
-  
-}
-.galeria-de-produtos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
+div-container-produtos{
+    background-color: #F5F5F7;
 }
 
-.Ellipse1{
-    
-    background: rgba(205.26, 205.26, 205.26, 0.50); 
-    border-radius: 9999px
+.imgProduto{
+    width: 368px;
+    height: 249px;
+    border-radius: 20px;
 }
+
+.saibaMais{
+    border-radius: 30px;
+    background: rgba(67, 133, 194, 0.70);
+    width: 138px;
+    height: 31px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+
+}
+

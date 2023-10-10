@@ -44,15 +44,19 @@
 .card-produto{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    /* alterar essa margin */
-    margin-right: 57px;
+    margin: 2%;
+    padding: 22px 24px;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 30px;
+    background-color: azure;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20);
 }
 
-.div-card-img{
+/* .div-card-img{
     width: 347px;
     height: 347px;
-}
+} */
 
 .imgProduto {
     width: 100%;
@@ -65,17 +69,18 @@
 .div-nome-produto{
     display: flex;
     justify-content: flex-start;
+    width: 100%;
+
 }
 
 .nomeProduto{
-    color: black;
-    font-size: 32px;
-    font-family: Roboto;
+    font-style: normal;
     font-weight: 400;
+    color: black;
+    font-size: 40px;
     line-height: 24px;
     word-wrap: break-word;
-
-    padding: 25px 0 32px 3px;
+    width: 100%;
     text-transform: capitalize;
 }
 
