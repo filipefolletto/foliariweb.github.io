@@ -18,6 +18,9 @@ const createElement = (tag, className) => {
     return element
 }
 
+
+
+
 const creatCard = (imgs) => {
     const card = createElement('div', 'card-produto')
 

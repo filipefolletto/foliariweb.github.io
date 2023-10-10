@@ -36,9 +36,6 @@
     
 }
 
-
-
-
                 /* Usado no JS */
 
 .card-produto{
@@ -49,14 +46,41 @@
     align-items: flex-start;
     gap: 40px;
     border-radius: 30px;
-    background-color: azure;
+    background-color: white;
     box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20);
 }
 
-/* .div-card-img{
-    width: 347px;
-    height: 347px;
-} */
+
+
+.previus-cards, .next-cards{
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(205, 205, 205, 0.50);;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 100px;
+    font-family: sans-serif;
+    width: 90px;
+    height: 90px; 
+    margin-top: 10%;
+
+    
+}
+
+.div-container-produtos:hover .previus-cards {
+    display: block;
+    margin-left: 5%;
+    
+  }
+  .div-container-produtos:hover .next-cards {
+    display: block;
+    margin-left: 75%;
+    
+    
+  }
+
 
 .imgProduto {
     width: 100%;
