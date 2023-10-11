@@ -193,52 +193,87 @@
 
 .section-avaliacoes{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container-avaliacoes{
     max-width: 1512px;
-    /* height: 300px; */
+    height: 507px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(167, 220, 11);
+    /* border: 5px solid rgb(167, 220, 11); */
 }
 
-.conteudo-avaliacoes-logo, .conteudo-avaliacoes-nota{
-    display: flex;
-    flex-wrap: nowrap; 
-    
-}
+
+
+
+
 .conteudo-avaliacoes-logo{
-    border: 2px solid red;
-}
-.conteudo-avaliacoes-nota{
-    border: 2px solid black;
+    /* border: 2px solid red; */
+    width: 100%;
     display: flex;
     flex-wrap: nowrap; 
 }
 
 
-.logoipsum-white, .logoipsum-dark{
+
+
+.div-logoipsum-white, .div-logoipsum-dark{
     flex: 1;
+    /* border: 3px solid rgb(21, 15, 4) */
 }
+
+/* .div-logoipsum-white{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.div-logoipsum-white img {
+    width: 212px;
+    height: 48.182px;
+    flex-shrink: 0;
+    
+    margin: 66px 0 86px 387px;
+    margin: 66px 0 86px 360px;
+    /* padding-left: 417px; */
+}
+
+
+.div-logoipsum-dark img{
+    width: 248px;
+    height: 44.551px;
+    flex-shrink: 0;
+
+    margin: 66px 0px 86px 55px;    
+}
+
+
+
+
+
+.conteudo-avaliacoes-nota{
+    /* border: 4px solid rgb(170, 199, 24); */
+    display: flex;
+    flex-wrap: nowrap; 
+    width: 100%;
+}
+
 
 .nota-avaliacoes-numero, .nota-avaliacoes-letra{
+    display: flex;
     flex: 1;
     flex-direction: column;
-    border: 2px solid orange;
-}
-.nota-avaliacoes-titulos{
-    flex: 2;
+    /* border: 2px solid rgb(0, 13, 255); */
 }
 
-.div48, .div2394, .divAA, .div125Revews, .TrustedByNumerous, .nomeERelato{
+/* .TrustedByNumerous, .nomeERelato */
+.div48, .div2394, .divAA, .div125Revews{
     border: 2px solid black;
     height: 50%;
 }
 
-.text-48-AA{
+.number-48-AA{
     color: #212121;
     font-size: 45px;
     font-family: Roboto;
@@ -246,29 +281,103 @@
     line-height: 27px;
     word-wrap: break-word;
 
-    text-align: center;
-    margin-top: 10px;
+    /* text-align: center; */
+    margin: 0 0 0 139px;
+ 
 }
 
-.text-estrelas{
+.img-estrelas{
     color: #F0AD4E;
     font-size: 30px;
     font-family: Roboto;
     font-weight: 400;
     line-height: 15px;
-    text-align: center;
+    /* text-align: center; */
 
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin: 22px 0 0 135px;
+    padding-bottom: 23px;
+    /* border: 2px solid red; */
 }
+
+
+
 
 .text-ratings-reviews{
     color: #212121;
-    font-size: 15px;
     font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 15px;
-    word-wrap: break-word;
+    line-height: 15px; /* 100% */
+    margin: 14px 0 0 139px;
 
-    text-align: center;
-    margin-top: 10px;
+
+    /* text-align: center;
+    margin-top: 10px; */
 }
+
+
+
+
+
+
+
+.nota-avaliacoes-titulos{
+    flex: 2;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.TrustedByNumerous, .nomeERelato{
+    margin: 0 100px 0 100px;
+
+    border: 3px solid red;
+}
+
+/* .nomeERelato{
+
+} */
+
+.TrustedByNumerous h5{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 120% */
+}
+
+.h6-google{
+    color: #212121;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px; /* 100% */
+
+    margin: 32px 0 17px 0;
+}
+
+.h6-jessica, .p-jessica{
+    padding-left: 23px;
+}
+
+.h6-jessica{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 105.882% */
+}
+
+.p-jessica{
+    padding-top: 9px;
+}
+
+
+
+
