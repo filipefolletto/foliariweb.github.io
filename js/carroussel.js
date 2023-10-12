@@ -92,14 +92,25 @@ scrollLeftButton.addEventListener('click', () => {
   });
 
 
-  paiCard.addEventListener('scroll', () => {
-    if(paiCard.scrollLeft <= 0){
-         scrollLeftButton.classList.add('hidden');
-         
-    }else {
-        scrollLeftButton.classList.remove('hidden');
+
+//aparece botoes se mouse em cima
+
+    paiCard.addEventListener('mouseover', () => {
+        let maxScrollLeft = paiCard.scrollWidth -  paiCard.clientWidth ;
+        if(paiCard.scrollLeft != 0){
+            scrollLeftButton.classList.add('shower');
+        }if(parseInt(paiCard.scrollLeft) != maxScrollLeft){
+             scrollRightButton.classList.add('shower');
+        }
         
-    }
-    });
+        });
+        
+
+//remove botoes se mouse sai
+        paiCard.addEventListener('mouseout', () => {
+            scrollLeftButton.classList.remove('shower');
+            scrollRightButton.classList.remove('shower');
+       });
+      
 
  //_______________________________________________________________________________________
