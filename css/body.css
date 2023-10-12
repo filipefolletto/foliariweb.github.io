@@ -146,7 +146,7 @@
 
 .mulher{
     display: flex;
-    /* border: 2px solid rgb(207, 247, 10); */
+    border: 2px solid rgb(207, 247, 10);
     
 }
 
@@ -158,6 +158,7 @@
 
 .text-mulher{
     padding-right: 41px;
+    border: 2px solid rgb(207, 247, 10);
 }
 
 .text-mulher h4{

@@ -55,26 +55,32 @@
     /*BUTTONS de rolagem carocel  */
 .previus-cards, .next-cards{
     all: unset;
-    display: none;
     position: absolute;
-    transform: translate(-50%, -50%);
     cursor: pointer;
-    margin-top: 15%; 
-  
-  
+    opacity: 0;
+    margin-top: 10%; 
+    margin-bottom: 20%;
+    transition: opacity 0.8s ease;
+}
+.next-cards{
+    left: 85%;
+}
+.previus-cards{
+    left: 5%;
+}
+.hidden {
+    opacity: 1;
 }
 
 /*Escondendo botões */
-.div-container-produtos:hover .previus-cards {
-    display: block;
-    margin-left: 5%;    
+/* .div-container-produtos:hover .previus-cards {
+    opacity: 1;
 }
 
   .div-container-produtos:hover .next-cards {
-    display: block;
-    margin-left: 95%;
+    opacity: 1;
   }
-  
+   */
 
 .imgProduto {
     width: 100%;

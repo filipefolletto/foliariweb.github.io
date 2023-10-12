@@ -84,11 +84,21 @@ const scrollLeftButton = document.getElementById('previus-cards');
 const scrollRightButton = document.getElementById('next-cards');
 
 scrollLeftButton.addEventListener('click', () => {
-    paiCard.scrollLeft -= 1000; // Ajuste o valor conforme desejado
+    paiCard.scrollLeft -= 1000; 
   });
 
   scrollRightButton.addEventListener('click', () => {
-    paiCard.scrollLeft += 1000; // Ajuste o valor conforme desejado
+    paiCard.scrollLeft += 1000; 
   });
+
+
+  paicard.addEventListener('scroll', () => {
+    if(paicard.scrollLeft <= 0){
+        scrollLeftButton.classList.add('hidden');
+    }else {
+        // Caso contrário, remova a classe 'hidden' para mostrar a seta esquerda
+        scrollLeftButton.classList.remove('hidden');
+    }
+    });
 
  //_______________________________________________________________________________________
