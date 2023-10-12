@@ -5,7 +5,7 @@
     flex-wrap: wrap; 
     /* max-width: 1512px; */
     /* margin: 0 auto; */
-    border: solid 5px rgb(0, 60, 255);
+
     
 }
 
@@ -24,17 +24,13 @@
 
 
 
-.nossas-linhas{
-    padding: 60px 0px 20px 60px;
-    font-size: 45px;
-    border: solid 5px rgb(251, 0, 255);
-}
 
 .FeaturesAndBenefits{
     display: flex;
     flex-direction: row;
     align-content: center;
-    border: solid 5px gold;
+    margin-top: 3%;
+    margin-bottom: 2%;
 
 }
 
@@ -43,12 +39,12 @@
     align-items: center;
     padding: 0% 5% 0% 5% ;
     /* line-height: 30px; */
-    border: solid 1px red;
+    
    
 
 }
 .features h4, .benefits h4{
-    padding-bottom: 26px;
+    padding-bottom: 20px;
 }
 .features p, .benefits p{
     padding-bottom: 13px;
@@ -248,12 +244,6 @@
 
     margin: 66px 0px 86px 20px;    
 }
-
-
-
-
-
-
 
 
 
