@@ -1,7 +1,7 @@
 .div-container-produtos{
     margin-left: 0px;
     overflow: auto;
-    overflow-x: hidden; 
+    overflow-x: hidden;  
 }
 
 
@@ -57,25 +57,41 @@
     all: unset;
     position: absolute;
     cursor: pointer;
-    margin-top: 15%; 
+    opacity: 1;
+    margin-top: 10%; 
+    margin-bottom: 20%;
+    transition: opacity 0.8s ease;
+}
+.next-cards{
+    left: 85%;
+}
+.previus-cards{
+    left: 5%;
 }
 
-/*Escondendo botões */
-.div-container-produtos:hover .previus-cards {
-    display: block;
-    margin-left: -1%;
-    /* border: 2px solid red; */
-    
-  }
+.hidden {
+    opacity: 0;
+}
+
+.opacity{
+    opacity: 1;
+}
+
+/* Escondendo botões */
+ /* .div-container-produtos:hover .previus-cards {
+    opacity: 1;
+} 
+
   .div-container-produtos:hover .next-cards {
-    display: block;
-    margin-left: 91%;
-    /* border: 2px solid red; */
-  }
+    opacity: 1;
+  }  */
 
 
 
 
+
+
+  
 
 .imgProduto {
     width: 100%;

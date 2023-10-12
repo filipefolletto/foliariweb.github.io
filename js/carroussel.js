@@ -92,13 +92,31 @@ scrollLeftButton.addEventListener('click', () => {
   });
 
 
-  paiCard.addEventListener('scroll', () => {
-    if(paiCard.scrollLeft <= 0){
-        scrollLeftButton.classList.add('hidden');
-    }else {
-        // Caso contrário, remova a classe 'hidden' para mostrar a seta esquerda
-        scrollLeftButton.classList.remove('hidden');
-    }
+
+
+
+
+
+  
+
+  paiCard.addEventListener('mouseenter', () => {
+   
+        scrollRightButton.classList.add('opacity');
+        scrollLeftButton.classList.add('opacity');
+
+        
     });
 
- //_______________________________________________________________________________________
+
+   
+
+
+
+
+        // toda vez que sai
+    paiCard.addEventListener('mouseleave', () => {
+        scrollRightButton.classList.remove('opacity');
+        scrollLeftButton.classList.remove('opacity')
+         
+ 
+})
