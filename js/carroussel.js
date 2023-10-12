@@ -92,12 +92,13 @@ scrollLeftButton.addEventListener('click', () => {
   });
 
 
-  paicard.addEventListener('scroll', () => {
-    if(paicard.scrollLeft <= 0){
-        scrollLeftButton.classList.add('hidden');
+  paiCard.addEventListener('scroll', () => {
+    if(paiCard.scrollLeft <= 0){
+         scrollLeftButton.classList.add('hidden');
+         
     }else {
-        // Caso contrário, remova a classe 'hidden' para mostrar a seta esquerda
         scrollLeftButton.classList.remove('hidden');
+        
     }
     });
 

@@ -1,7 +1,7 @@
 .div-container-produtos{
     margin-left: 0px;
     overflow: auto;
-    overflow-x: hidden; 
+    overflow-x: hidden;  
 }
 
 
@@ -57,7 +57,7 @@
     all: unset;
     position: absolute;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
     margin-top: 10%; 
     margin-bottom: 20%;
     transition: opacity 0.8s ease;
@@ -68,19 +68,20 @@
 .previus-cards{
     left: 5%;
 }
+
 .hidden {
-    opacity: 1;
+    opacity: 0;
 }
 
 /*Escondendo botões */
-/* .div-container-produtos:hover .previus-cards {
+.div-container-produtos:hover .previus-cards {
     opacity: 1;
 }
 
   .div-container-produtos:hover .next-cards {
     opacity: 1;
   }
-   */
+  
 
 .imgProduto {
     width: 100%;
