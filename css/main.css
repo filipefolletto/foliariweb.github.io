@@ -62,7 +62,7 @@
 
 /*Escondendo botões */
 .div-container-produtos:hover .previus-cards {
-    display: inline-block;
+    display: block;
     margin-left: -1%;
     /* border: 2px solid red; */
     
@@ -72,7 +72,10 @@
     margin-left: 91%;
     /* border: 2px solid red; */
   }
-   */
+
+
+
+
 
 .imgProduto {
     width: 100%;
