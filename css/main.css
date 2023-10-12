@@ -55,9 +55,7 @@
     /*BUTTONS de rolagem carocel  */
 .previus-cards, .next-cards{
     all: unset;
-    display: none;
     position: absolute;
-    transform: translate(-50%, -50%);
     cursor: pointer;
     margin-top: 15%; 
 }
@@ -74,7 +72,7 @@
     margin-left: 91%;
     /* border: 2px solid red; */
   }
-  
+   */
 
 .imgProduto {
     width: 100%;
