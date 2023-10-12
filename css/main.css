@@ -64,8 +64,6 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     margin-top: 15%; 
-
-    
 }
 
   
@@ -73,12 +71,12 @@
 
 .div-container-produtos:hover .previus-cards {
     display: block;
-    margin-left: 5%;
+    margin-left: 0%;
     
   }
   .div-container-produtos:hover .next-cards {
     display: block;
-    margin-left: 90%;
+    margin-left: 85%;
     
   }
   
