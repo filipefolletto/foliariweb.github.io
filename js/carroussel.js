@@ -78,3 +78,17 @@ window.onload = () => {
     creatCard()    
 }
 
+//botoes do corrousel_________________________________________________________________
+
+const scrollLeftButton = document.getElementById('previus-cards');
+const scrollRightButton = document.getElementById('next-cards');
+
+scrollLeftButton.addEventListener('click', () => {
+    paiCard.scrollLeft -= 1000; // Ajuste o valor conforme desejado
+  });
+
+  scrollRightButton.addEventListener('click', () => {
+    paiCard.scrollLeft += 1000; // Ajuste o valor conforme desejado
+  });
+
+ //_______________________________________________________________________________________

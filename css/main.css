@@ -21,7 +21,10 @@
 }
 
 .div-container-produtos{
+    border: solid 6px green;
     overflow: auto;
+   overflow-x: hidden; 
+ 
 }
 
 .div-nossasLinhas h2{
@@ -48,26 +51,25 @@
     border-radius: 30px;
     background-color: white;
     box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20);
+    scroll-snap-align: start;
+
 }
 
 
     /*BUTTONS de rolagem carocel  */
 .previus-cards, .next-cards{
-    display: none;
+    all: unset;
+     display: none;
     position: absolute;
     transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    background-color: rgba(205, 205, 205, 0.50);;
     cursor: pointer;
-    border-radius: 50%;
-    font-size: 100px;
-    font-family: sans-serif;
-    width: 90px;
-    height: 90px; 
-    margin-top: 10%;
+    margin-top: 15%; 
 
     
 }
+
+  
+
 
 .div-container-produtos:hover .previus-cards {
     display: block;
@@ -76,10 +78,10 @@
   }
   .div-container-produtos:hover .next-cards {
     display: block;
-    margin-left: 75%;
+    margin-left: 90%;
     
   }
-
+  
 
 .imgProduto {
     width: 100%;
