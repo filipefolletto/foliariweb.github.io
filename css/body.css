@@ -9,6 +9,8 @@
     
 }
 
+
+
 .linhas-size{
     max-width: 1512px;
     margin: 0 auto;
@@ -60,13 +62,12 @@
 }
 
 .container-ourTeam{
- max-width: 1512px;
- margin: 0 auto;
- /* border: 2px solid green; */
+ 
+
 }
 
 .section-conteudo{
-    /* border: 2px solid red; */
+   
     max-width: 1044px;
     max-height: 576px;
     margin: 41px auto;
@@ -74,6 +75,7 @@
 }
 
 .ourTeam-conteudo{
+    padding-top: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,20 +104,19 @@
 .pai-homem-mulher{
     display: flex;
     padding-top: 66px;
+
     
 }
 
 .homem{
     display: flex;
-    /* border: 2px solid rgb(7, 152, 7); */
+    width: 50%;
+
 }
 .img-homem img{
-  padding-right: 42px;
-  padding-left: 10px;
   padding-bottom: 175px;
   /* border: 1px solid orange; */
   
-    
 }
 
 .text-homem h4{
@@ -126,6 +127,7 @@
     line-height: 36px;
     word-wrap: break-word;
     padding-bottom: 16px;
+    padding-left: 4%;
 }
 
 .text-homem p{
@@ -135,51 +137,49 @@
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
-    /* padding-right: 24px; */
+    padding-left: 4%;
 }
 
 
 
 .mulher{
     display: flex;
-    border: 2px solid rgb(207, 247, 10);
+    width: 50%;
     
 }
 
 .img-mulher img{
-    padding-right: 42px;
-    padding-left: 130px;
-      
+    
+ 
   }
 
 .text-mulher{
-    padding-right: 41px;
-    border: 2px solid rgb(207, 247, 10);
+    width: 100%;
+    
+    
 }
 
 .text-mulher h4{
     color: #212121;
     font-size: 30px;
-    font-family: Roboto;
     font-weight: 400;
     line-height: 36px;
     word-wrap: break-word;
+    padding-left: 4%;
+    width: 100%;
     padding-bottom: 16px;
-    padding-right: 41px;
+
+
 }
 
 .text-mulher p{
     color: #4D4D4D;
     font-size: 15px;
-    font-family: Roboto;
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
+    padding-left: 4%;
 }
-
-
-
-
 
 
 
@@ -241,10 +241,6 @@
 
     margin: 66px 0px 86px 20px;    
 }
-
-
-
-
 
 
 
@@ -396,7 +392,11 @@
 .p-jessica{
     padding-top: 9px;
 }
-
+@media (max-width: 1247px) {
+    .nomeERelato, .TrustedByNumerous{
+        display: none;
+    }
+}
 
 
 

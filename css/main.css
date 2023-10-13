@@ -5,12 +5,11 @@
     background-color: #F5F5F7;
 }
 
-
-
 .main-carrocel{
     width: 100%;
-    
 }
+
+
 
 .main-container{
  
@@ -18,7 +17,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: solid 4px rgba(64, 255, 0, 0.331);
+   
  
 }
 
@@ -32,10 +31,9 @@
 .div-nossasLinhas h2{
     color: #212121;
     font-size: 45px;
-    font-family: Roboto;
     line-height: 27px;
     word-wrap: break-word;
-    padding: 60px 0 83px 0;
+    padding: 4% 0 2% 2%;
        
 }
 
@@ -43,7 +41,7 @@
 .card-produto{
     display: flex;
     flex-direction: column;
-    margin: .9%;
+    margin: 2% .9% 5% 3%;
     padding: 22px 24px;
     align-items: flex-start;
     gap: 40px;
@@ -51,13 +49,9 @@
     background: rgba(255, 255, 255, 0.90);
     box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20);
     scroll-snap-align: start;
-    margin-bottom: 5%;
   
 }
 
-.card-produto:hover .divNomeProduto{
-    color: white;
-}
 
 .biggerCard{
     background: rgba(255, 255, 255, 0.321);
@@ -68,36 +62,11 @@
 }
 
 
-
-    /*BUTTONS de rolagem carocel  */
-.previus-cards, .next-cards{
-    all: unset;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    margin-top: 10%; 
-    margin-bottom: 20%;
-    transition: opacity 0.8s ease;
-    z-index: 2;
-}
-.next-cards{
-    left: 85%;
-}
-.previus-cards{
-    left: 5%;
-}
-
-.shower {
-    opacity: 1;
-}
-
-
 .imgProduto {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 20px; */
+    width: 368px;
+    height: 249px; 
+    border-radius: 20px;
     background-position: center;
-    background-size: cover;
 }
 
 
@@ -110,4 +79,50 @@
     width: 100%;
     text-transform: capitalize;
 }
+
+
+/*BUTTONS de rolagem carocel______________________________________________________________________________  */
+.previus-cards, .next-cards{
+    all: unset;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 10%; 
+    margin-bottom: 20%;
+    transition: opacity 0.8s ease;
+    z-index: 2;
+
+
+
+}
+.next-cards{
+    left: 94%;
+}
+.previus-cards{
+    left: 2%;
+}
+
+.shower {
+    opacity: 0.7;
+}
+
+.next-cards:hover , .previus-cards:hover {
+    opacity: 1;
+    
+}
+
+
+/* 
+.saibaMais{
+    border-radius: 30px;
+    background: rgba(67, 133, 194, 0.70);
+    width: 138px;
+    height: 31px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px; 
+
+} */
 

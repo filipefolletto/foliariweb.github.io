@@ -20,9 +20,7 @@
    
 }
 
-.nav-sec-links {
-    color: red;
-}
+
 
 .nav-links{
     width: 50%;
@@ -42,6 +40,8 @@
     
 }
 .nav-links a:hover{
+  transform: scale(1.11);
   color: #9C796B;
-  font-size: 18px;
+  transition: all  1s ease;
+  
 }
