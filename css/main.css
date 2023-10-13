@@ -25,7 +25,6 @@
 .div-nossasLinhas, .div-container-produtos{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: nowrap; */
    
   
 }
@@ -56,11 +55,16 @@
   
 }
 
-.biggerCard{
-    background: rgba(185, 185, 185, 0.667);
-    transition: background 0.5s ease;
-    
+.card-produto:hover .divNomeProduto{
+    color: white;
+}
 
+.biggerCard{
+    background: rgba(255, 255, 255, 0.321);
+    transform: scale(1.03);
+    transition: transform 2s ease;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -74,6 +78,7 @@
     margin-top: 10%; 
     margin-bottom: 20%;
     transition: opacity 0.8s ease;
+    z-index: 2;
 }
 .next-cards{
     left: 85%;

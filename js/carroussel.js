@@ -43,9 +43,11 @@ const creatCard = (imgs) => {
     //hover dos cards_______________________________________________________________________________________
     card.addEventListener('mouseover', () => {
         card.classList.add('biggerCard');
+
     });
     card.addEventListener('mouseout', () => {
         card.classList.remove('biggerCard');
+        
     });
 
 
