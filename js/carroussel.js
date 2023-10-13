@@ -37,12 +37,18 @@ const creatCard = (imgs) => {
     const h4Nome = createElement('h4', 'nomeProduto')
     h4Nome.innerHTML = `${imgs}`
 
-    
-    
 
 
 
-    
+    //hover dos cards_______________________________________________________________________________________
+    card.addEventListener('mouseover', () => {
+        card.classList.add('biggerCard');
+    });
+    card.addEventListener('mouseout', () => {
+        card.classList.remove('biggerCard');
+    });
+
+
     
     // front.style.backgroundImage = `url('../images/${fotos}.png')`
 
@@ -54,6 +60,7 @@ const creatCard = (imgs) => {
     // card.appendChild(saibaMais)
     
 
+   
     
 
 
@@ -113,4 +120,5 @@ scrollLeftButton.addEventListener('click', () => {
        });
       
 
- //_______________________________________________________________________________________
+ 
+
