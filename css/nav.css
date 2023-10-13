@@ -36,6 +36,12 @@
     justify-content: space-between;
     color: #F5F5F7;
     text-decoration: none;
-    
+    /* transition: transform 0.3s;  */
+}
+
+.nav-links a:hover{
+    font-size: 22px;
+    /* border-bottom: 2px solid transparent; */
+    /* color: red; */
 }
 

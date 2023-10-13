@@ -93,19 +93,25 @@ scrollLeftButton.addEventListener('click', () => {
 
 
 
+//aparece botoes se mouse em cima
 
-
-
-
-  
-
-  paiCard.addEventListener('mouseenter', () => {
-   
-        scrollRightButton.classList.add('opacity');
-        scrollLeftButton.classList.add('opacity');
-
+    paiCard.addEventListener('mouseover', () => {
+        let maxScrollLeft = paiCard.scrollWidth -  paiCard.clientWidth ;
+        if(paiCard.scrollLeft != 0){
+            scrollLeftButton.classList.add('shower');
+        }if(parseInt(paiCard.scrollLeft) != maxScrollLeft){
+             scrollRightButton.classList.add('shower');
+        }
         
-    });
+        });
+        
+
+//remove botoes se mouse sai
+        paiCard.addEventListener('mouseout', () => {
+            scrollLeftButton.classList.remove('shower');
+            scrollRightButton.classList.remove('shower');
+       });
+      
 
 
    
