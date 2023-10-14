@@ -37,12 +37,21 @@ const creatCard = (imgs) => {
     const h4Nome = createElement('h4', 'nomeProduto')
     h4Nome.innerHTML = `${imgs}`
 
-    
-    
 
 
 
-    
+
+    //hover dos cards_______________________________________________________________________________________
+    card.addEventListener('mouseover', () => {
+        card.classList.add('biggerCard');
+
+    });
+    card.addEventListener('mouseout', () => {
+        card.classList.remove('biggerCard');
+        
+    });
+
+
     
     // front.style.backgroundImage = `url('../images/${fotos}.png')`
 
@@ -52,10 +61,6 @@ const creatCard = (imgs) => {
     card.appendChild(divNomeProduto)
     card.appendChild(divCardImg)
     // card.appendChild(saibaMais)
-    
-
-    
-
 
     
     // console.log(paiCard)
@@ -72,11 +77,6 @@ fotos.forEach((imgs) => {
 });
 
 
-
-window.onload = () => { 
-
-    creatCard()    
-}
 
 //botoes do corrousel_________________________________________________________________
 
@@ -113,16 +113,5 @@ scrollLeftButton.addEventListener('click', () => {
        });
       
 
-
-   
-
-
-
-
-        // toda vez que sai
-    paiCard.addEventListener('mouseleave', () => {
-        scrollRightButton.classList.remove('opacity');
-        scrollLeftButton.classList.remove('opacity')
-         
  
-})
+

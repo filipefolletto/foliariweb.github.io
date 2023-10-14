@@ -97,6 +97,13 @@
    max-width: 255px;
 }
 
+.header-section-button button:hover{
+    background-color: #4385C2;
+    color: #ffffff;
+}
+
+
+
 .header-section-image{
     width: 50%;
     display: flex;
