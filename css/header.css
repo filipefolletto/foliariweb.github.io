@@ -39,8 +39,6 @@
     padding-top: 35px;
     padding-left: 100px;
     padding-right: 10vh;
-
-
    
 }
 
@@ -99,6 +97,11 @@
 
 .header-section-button button:hover{
     background-color: #4385C2;
+    transform: scale(1.03);
+    transition: all  0.5s ease;
+}
+
+#confira-nosso-catalogo:hover, #entre-em-contato:hover{
     color: #ffffff;
 }
 
