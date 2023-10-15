@@ -4,6 +4,10 @@
     justify-content: space-between;
     height: 73px;
 }
+.nav-button{
+display: none;
+}
+
 .nav-logo{
     height: 116px;
     padding: 20px 0 0 73px;
@@ -19,7 +23,6 @@
     padding-right: 73px;
    
 }
-
 
 
 .nav-links{
@@ -44,4 +47,33 @@
   color: #9C796B;
   transition: all  1s ease;
   
+}
+@media (max-width: 500px) {
+    .nav-sec-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 11%;
+    }
+    .nav-logo{
+        height: 116px;
+        padding: 3% 0% 3% 5%;
+       
+    }
+    
+    .nav-links{
+        display: none;
+    }
+
+/*_____________________ FAZER ANIMAÇAO ______________________________________________________ */
+    .nav-button{
+        all:unset;
+        display: flex;
+
+    }
+
+
+
+
+
 }

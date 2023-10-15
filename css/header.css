@@ -10,11 +10,7 @@
     max-width: 1512px;
     margin: 0 auto;
     height: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* border: 1px solid red; */
+ 
 
 } 
 
@@ -89,6 +85,7 @@
     color: #212121;
     text-align: center;
 }
+
 .header-section-button button{
    padding: 10px 50px;
    max-width: 255px;
@@ -116,4 +113,93 @@
 .header-section-image img{
     width: 532px;
     height: 537px;
+}
+
+
+/* VERSÃO MOBILE ____________________________________________________________________________________________________ */
+
+@media (max-width: 500px) {
+.header{
+
+    background: linear-gradient(165deg, rgba(165, 212, 255, 0.45) 0%, rgba(192, 219, 244, 0.00) 30.74%, rgba(192, 219, 244, 0.45) 99.01%), linear-gradient(195deg, rgba(46, 181, 165, 0.89) 0%, rgba(125, 233, 218, 0.40) 35.73%, rgba(99, 238, 221, 0.89) 98.44%), radial-gradient(38.05% 38.05% at 50% 61.95%, rgba(0, 0, 0, 0.00) 0%, rgba(42, 200, 133, 0.20) 100%);
+}
+
+.header-section{
+        display: flex;
+        flex-direction: column;
+    
+        
+} 
+
+.header-section-titles-intrudution{
+    gap: 3.5;
+ 
+
+}
+
+
+.header-section-titles{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: space-between; */
+    padding-top: 35px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+   
+}
+
+    
+.header-section-titles-intrudution  h1{
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.header-section-titles-intrudution p{
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.header-section-image{
+    width: 100%;
+
+}
+
+.header-section-image img{
+    width: 375px;
+    height: 384px;
+}
+
+.header-section-button{
+    display: none;
+
+
+    /* padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    align-items: center; */
+
+}
+
+/* .header-section-button button{
+    padding: 2% 3%;
+    max-width: 70%;
+ }
+ #confira-nosso-catalogo,#entre-em-contato{
+    width: 255px;
+    height: 40px;
+    font-size: 14px;
+ 
+}
+ 
+     */
+
+
 }
