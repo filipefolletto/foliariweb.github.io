@@ -2,7 +2,7 @@
     
     width: 100%;
     /* height: 570px; */
-    height: 769px;
+  
     background: linear-gradient(100deg, rgba(67, 133, 194, 0.19) 0%, rgba(192, 219, 244, 0.19) 99.58%), linear-gradient(259deg, rgba(3, 181, 155, 0.79) 0.77%, #CDF3EC 38.81%, #4DDECD 100%, #20EBBE 100%), radial-gradient(50% 54.64% at 50% 45.36%, rgba(0, 0, 0, 0.00) 0%, rgba(42, 200, 133, 0.20) 100%);
     
 }
@@ -117,12 +117,63 @@
 }
 
 
+
+
+/* button duplicater */
+.button-duplicate-none{
+    display: none;
+}
+
+.header-section-button-duplicate{
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    /* justify-content: flex-start; */
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 27px ;
+    gap: 20px;
+}
+
+#confira-nosso-catalogo-duplicate{
+    margin-bottom: 27px;
+}
+
+
+#confira-nosso-catalogo-duplicate,#entre-em-contato-duplicate{
+    width: 255px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+}
+
+.header-section-button-duplicate button{
+   padding: 10px 50px;
+   max-width: 255px;
+}
+
+.header-section-button-duplicate button:hover{
+    background-color: #4385C2;
+    transform: scale(1.03);
+    transition: all  0.5s ease;
+}
+
+#confira-nosso-catalogo-duplicate:hover, #entre-em-contato-duplicate:hover{
+    color: #ffffff;
+}
+
+
 /* VERSÃO MOBILE ____________________________________________________________________________________________________ */
 
 @media (max-width: 500px) {
 .header{
 
     background: linear-gradient(165deg, rgba(165, 212, 255, 0.45) 0%, rgba(192, 219, 244, 0.00) 30.74%, rgba(192, 219, 244, 0.45) 99.01%), linear-gradient(195deg, rgba(46, 181, 165, 0.89) 0%, rgba(125, 233, 218, 0.40) 35.73%, rgba(99, 238, 221, 0.89) 98.44%), radial-gradient(38.05% 38.05% at 50% 61.95%, rgba(0, 0, 0, 0.00) 0%, rgba(42, 200, 133, 0.20) 100%);
+    order: 1;
+  
 }
 
 .header-section{
@@ -186,7 +237,10 @@
     /* padding-top: 3.5%;
     padding-bottom: 3.5%;
     align-items: center; */
+}
 
+.button-duplicate-none{
+    display: block;
 }
 
 /* .header-section-button button{
