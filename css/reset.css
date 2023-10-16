@@ -7,6 +7,8 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: #F5F5F7;
     font-family: Roboto, "Helvetica Neue", Helvetica;
@@ -41,7 +43,26 @@ p{
     font-weight: 400;
 }
 
+@media (max-width: 500px){
+    .header{
+        order:1;
+    }
+    .main-carrocel{
+        order:3;
+    }
+    .linhas-colchoes{
+        display: none;
+        order:3;
+    }
+    .section-avaliacoes{
+        order: 4;
+    }
+    .section-nossoTime{
+        order:2;
 
+    }
+   
+}
 
 
 
