@@ -1,7 +1,5 @@
-.container-supremo{
-    display: flex;
-}
 
+/*----------------- linhas de Colchoes--------------  */         /*---------- linhas de Colchoes  -----------*/
 
 .linhas-colchoes{
     width: 100%;
@@ -11,9 +9,10 @@
     /* max-width: 1512px; */
     /* margin: 0 auto; */
 
+    /* order: 2; */
+
     
 }
-
 
 
 .linhas-size{
@@ -59,17 +58,12 @@
 
 
 
-/*---------- Nosso Time section-------------------*/
+/*---------- Nosso Time section-------------------*/       /*---------- Nosso Time section-------------------*/    
 .section-nossoTime{
     width: 100%;
     /* height: 570px; */
     height: 72vh;
     background: rgb(255, 255, 255);
-}
-
-.container-ourTeam{
- 
-
 }
 
 .section-conteudo{
@@ -110,15 +104,17 @@
 .pai-homem-mulher{
     display: flex;
     padding-top: 66px;
-
-    
 }
+
+/* .img-padrao{
+    display: none;
+} */
 
 .homem{
     display: flex;
     width: 50%;
-
 }
+
 .img-homem img{
   padding-bottom: 175px;
   /* border: 1px solid orange; */
@@ -139,6 +135,9 @@
     padding-bottom: 16px;
     padding-left: 4%;
 }
+.img-mobile-homem{
+    display: none;
+}
 
 .text-homem p{
     color: #4D4D4D;
@@ -158,10 +157,14 @@
     
 }
 
-.img-mulher img{
+/* .img-mulher img{
     
  
-  }
+} */
+
+.img-mobile-mulher{
+    display: none;
+}  
 
 .text-mulher{
     width: 100%;
@@ -191,14 +194,20 @@
     padding-left: 4%;
 }
 
-@media (max-width: 500px) {
-    .section-nossoTime{
-        order: 2;
-    }
+
+.ourTeam-p--mobile{
+    display: none;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.2px; /* 60% */
+    /* margin-left: 3%; */
 }
 
 
-/* section AVALIACOES */
+/* ----------section AVALIACOES ----------------*/  /* ----------section AVALIACOES ----------------*/
 
 .section-avaliacoes{
     width: 100%;
@@ -348,10 +357,6 @@
 
 
 
-
-
-
-
 .nota-avaliacoes-titulos{
     /* flex: 2; */
     /* border: 5px solid red; */
@@ -409,7 +414,84 @@
 }
 
 
+
+
+
 /* VERSÃO MOBILE ____________________________________________________________________________________________________ */
+@media (max-width: 500px) {
+
+    .section-nossoTime{
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .section-conteudo{       
+        /* max-width: 1044px;
+        max-height: 576px; */
+        margin: 0px auto;
+        /* padding: 41px; */
+        padding: 3.5%;
+    }
+    
+    
+    .ourTeam-conteudo{
+        padding-top: 8%;
+        /* padding-bottom: 4%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourTeam-H4{
+        display: none;
+    }
+    
+    .ourTeam-p{  
+        display: none;
+    }
+
+    .ourTeam-p--mobile{
+        display: block;
+    }
+
+    .pai-homem-mulher{
+        display: flex;
+        padding-top: 4.5%;
+        
+    }
+
+    .homem, .mulher{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.5%;
+        border: 2px solid red;
+    }
+
+    .img-homem img, .img-mulher img{
+        padding-bottom: 0px;
+        width: 274px;
+        height: 410px;
+        flex-shrink: 0;
+    }
+    .img-padrao{
+        display: none;
+    }
+
+    .img-mobile-homem, .img-mobile-mulher{
+        display: inline-block;
+    }
+
+    .text-homem h4, .text-mulher h4{
+        color: #212121;
+        font-family: Roboto;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31.2px; /* 135.652% */
+    }
+
+}
+
 
 
 @media (max-width: 1247px) {
@@ -417,6 +499,3 @@
         display: none;
     }
 }
-
-
-

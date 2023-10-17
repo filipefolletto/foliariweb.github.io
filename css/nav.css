@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 73px;
-}
-.nav-button{
-display: none;
+    height: 100px;
+    /* border: 2px solid red; */
 }
 
 .nav-logo{
-    height: 116px;
+    /* height: 110px; */
     padding: 20px 0 0 73px;
     width: 50%;
+    /* border: 2px solid red; */
 }
 
 .nav-sec-links{
@@ -20,13 +19,14 @@ display: none;
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    padding-right: 73px;
+    /* padding-right: -50px; */
+    /* padding-right: 73px; */
    
 }
 
 
 .nav-links{
-    width: 50%;
+    width: 38%;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -52,8 +52,50 @@ display: none;
   transform: scale(1.11);
   color: #9C796B;
   transition: all  1s ease;
-  
 }
+
+
+
+/* ----------------------MENU mobile-------------- */
+.mobile-menu{
+    display: none;
+    margin: 5%; 
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #444B54;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.line1,.line2,.line3{
+    border-radius: 30px;
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px)
+}
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+
 @media (max-width: 500px) {
     .nav-sec-header{
         display: flex;
@@ -62,7 +104,7 @@ display: none;
         height: 11%;
     }
     .nav-logo{
-        height: 116px;
+        height: 110px;
         padding: 3% 0% 3% 5%;
        
     }
@@ -72,13 +114,12 @@ display: none;
     }
 
 /*_____________________ FAZER ANIMAÇAO ______________________________________________________ */
-    .nav-button{
-        all:unset;
-        display: flex;
 
+    .mobile-menu{
+        display: inline;
+        
+       
     }
-
-
 
 
 

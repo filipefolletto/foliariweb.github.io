@@ -7,12 +7,19 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: #F5F5F7;
     font-family: Roboto, "Helvetica Neue", Helvetica;
     overflow-x: hidden;
     border: solid 3px red;
 } 
+
+#container-supremo{
+    display: flex;
+    flex-direction: column;
+}
 
 
 button{
@@ -42,7 +49,28 @@ p{
     font-weight: 400;
 }
 
-
+@media (max-width: 500px){
+    .header{
+        order: 1;
+    }
+    .main-carrocel{
+        order: 4;
+    }
+    .linhas-colchoes{
+        display: none;
+        order: 3;
+    }
+    .section-avaliacoes{
+        order: 5;
+    }
+    .section-nossoTime{
+        order: 2;
+    }
+    .footer{
+        order: 3;
+    }
+   
+}
 
 
 
