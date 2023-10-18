@@ -54,7 +54,8 @@ p{
         order: 1;
     }
     .main-carrocel{
-        order: 4;
+        display: none;
+        /* order: 4; */
     }
     .linhas-colchoes{
         display: none;
@@ -69,7 +70,10 @@ p{
     .footer{
         order: 3;
     }
-   
+   .carrocelMobile-container{
+        /* display: block; */
+        order: 4;
+   }
 }
 
 

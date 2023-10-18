@@ -1,6 +1,6 @@
-const paiCard = document.querySelector(".div-container-produtos")
+const paiCardM = document.querySelector(".div-containerMobile-produtos")
 
-const fotos = [ 
+const fotosM = [ 
 'colchoes',
 'boxes',
 'cabeceiras',
@@ -13,33 +13,32 @@ const fotos = [
 
 
 
-const createElement = (tag, className) => {
-    const element = document.createElement(tag)
-    element.className = className;
-    return element
+const createElementM = (tag, className) => {
+    const elementM = document.createElement(tag)
+    elementM.className = className;
+    return elementM
 }
 
 
 
 
-const creatCard = (imgs) => {
-    const card = createElement('div', 'card-produto')
+const creatCardM = (imgs) => {
+    const card = createElementM('div', 'card-produtoM')
 
-    const divCardImg = createElement('div', 'div-card-img')
-    const imgProduto = createElement('img', 'imgProduto')
+    const divCardImg = createElementM('div', 'div-cardMobile-img')
+    const imgProduto = createElementM('img', 'imgMobileProduto')
     // imgProduto.src = `url(../img/${fotos}.png)`
-    imgProduto.src = `../img/${imgs}.png`
+    imgProduto.src = `../img/mobileCarrocel/${imgs}.png`
 
     // const saibaMais = createElement('button', 'saibaMais')
     // saibaMais.innerHTML = `Saiba mais`
   
 
-    const divNomeProduto = createElement('div', 'div-nome-produto')
-    const h4Nome = createElement('h4', 'nomeProduto')
+    const divNomeProduto = createElementM('div', 'div-nomeMobile-produto')
+    const h4Nome = createElementM('h4', 'nomeProdutoMobile')
     h4Nome.innerHTML = `${imgs}`
-
-
-
+    // h4Nome.style.textAlign = "center";
+   
 
 
     //hover dos cards_______________________________________________________________________________________
@@ -59,8 +58,8 @@ const creatCard = (imgs) => {
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
 
-    card.appendChild(divNomeProduto)
     card.appendChild(divCardImg)
+    card.appendChild(divNomeProduto)
     // card.appendChild(saibaMais)
 
     
@@ -71,36 +70,38 @@ const creatCard = (imgs) => {
     
 }
 
-fotos.forEach((imgs) => {
+const loadGame = () => {
+   fotosM.forEach((imgs) => {
 
-    const cardImgs = creatCard(imgs)
-    paiCard.appendChild(cardImgs)
-});
+       const cardImgs = creatCardM(imgs)
+       paiCardM.appendChild(cardImgs)
+    });
+}
 
 
 
 //botoes do corrousel_________________________________________________________________
 
-const scrollLeftButton = document.getElementById('previus-cards');
-const scrollRightButton = document.getElementById('next-cards');
+// const scrollLeftButton = document.getElementById('previus-cardsM');
+// const scrollRightButton = document.getElementById('next-cardsM');
 
-scrollLeftButton.addEventListener('click', () => {
-    paiCard.scrollLeft -= 1000; 
-  });
+// scrollLeftButton.addEventListener('click', () => {
+//     paiCardM.scrollLeft -= 1000; 
+//   });
 
-  scrollRightButton.addEventListener('click', () => {
-    paiCard.scrollLeft += 1000; 
-  });
-
+//   scrollRightButton.addEventListener('click', () => {
+//     paiCardM.scrollLeft += 1000; 
+//   });
+ 
 
 
 //aparece botoes se mouse em cima
 
-    paiCard.addEventListener('mouseover', () => {
-        let maxScrollLeft = paiCard.scrollWidth -  paiCard.clientWidth ;
-        if(paiCard.scrollLeft != 0){
+    paiCardM.addEventListener('mouseover', () => {
+        let maxScrollLeft = paiCardM.scrollWidth -  paiCardM.clientWidth ;
+        if(paiCardM.scrollLeft != 0){
             scrollLeftButton.classList.add('shower');
-        }if(parseInt(paiCard.scrollLeft) != maxScrollLeft){
+        }if(parseInt(paiCardM.scrollLeft) != maxScrollLeft){
              scrollRightButton.classList.add('shower');
         }
         
@@ -108,10 +109,14 @@ scrollLeftButton.addEventListener('click', () => {
         
 
 //remove botoes se mouse sai
-        paiCard.addEventListener('mouseout', () => {
+        paiCardM.addEventListener('mouseout', () => {
             scrollLeftButton.classList.remove('shower');
             scrollRightButton.classList.remove('shower');
        });
       
 
  
+window.onload = () => { 
+
+     loadGame()
+}

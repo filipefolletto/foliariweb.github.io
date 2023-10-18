@@ -1,3 +1,16 @@
+
+.main-carrocel{
+    width: 100%;
+    /* order: 2; */
+}
+
+.main-container{
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .div-container-produtos{
     overflow: auto;
     overflow-x: hidden;  
@@ -5,28 +18,9 @@
     background-color: #F5F5F7;
 }
 
-.main-carrocel{
-    width: 100%;
-    /* order: 2; */
-}
-
-
-
-.main-container{
- 
-    /* height: 300px; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-   
- 
-}
-
 .div-nossasLinhas, .div-container-produtos{
     display: flex;
-    flex-direction: row;
-   
-  
+    flex-direction: row;   
 }
 
 .div-nossasLinhas h2{
