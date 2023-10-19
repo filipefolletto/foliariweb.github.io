@@ -1,5 +1,6 @@
                              /* config gerais dos containers */
 .carrocelMobile-container{  
+    background-color: #EFEFEF;;
     display: none;
     width: 100%;
     /* order: 2; */
@@ -110,6 +111,7 @@
     font-weight: 400;
     line-height: 19.8px; /* 99% */
     text-transform: capitalize;
+    width: 100%;
     /* word-wrap: break-word; */
 
     text-align: center;

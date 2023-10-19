@@ -1,0 +1,65 @@
+.certificados-mobile{
+    background-color: #EFEFEF;
+    display: none;
+    width: 100vh;
+}
+
+.certificados-container{
+    width: 100%;
+    padding: 3.5%;
+}
+
+.certificados-container h6{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.8px; /* 110% */
+
+    width: 100%;
+    /* text-align: center; */
+    margin-bottom: 3%;
+    padding: 0% 7%;
+}
+
+.certificados-container p{
+    color: #4D4D4D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    
+    padding: 0% 7%;
+    margin-right: 15%;
+}
+
+.div-certificados-imgs{
+    display: flex;
+    width: 100%;
+    border: 2px solid rgb(34, 0, 255);
+}
+
+.div-certificados-imgs img{
+  margin: 0 auto;
+  border: 2px solid rgb(0, 255, 34);
+
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .certificados-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}

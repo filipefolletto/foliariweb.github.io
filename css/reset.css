@@ -67,12 +67,15 @@ p{
     .section-nossoTime{
         order: 2;
     }
-    .footer{
+    .footer-icons{
         order: 3;
     }
    .carrocelMobile-container{
         /* display: block; */
         order: 4;
+   }
+   .certificados-mobile{
+        order: 6;
    }
 }
 
