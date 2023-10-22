@@ -1,10 +1,11 @@
                              /* config gerais dos containers */
 .carrocelMobile-container{  
-    background-color: #EFEFEF;;
+    background-color: #EFEFEF;
+
     display: none;
     width: 100%;
     /* order: 2; */
-    /* border: 4px solid rgb(255, 128, 0);   */
+    position:static;
 }
 
 .carrocelMobile-conteudo{
@@ -12,7 +13,8 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid blue; */
+    
+    
 }
 
 
@@ -22,6 +24,7 @@
 .div-nossos-produtosM, .div-containerMobile-produtos{
     display: flex;
     flex-direction: row;   
+   
 }
 
 
@@ -47,15 +50,12 @@
 
 
 
-                              /* congig 2 container div CARDS */
+  /* congig 2 container div CARDS */
 .div-containerMobile-produtos{
-    overflow: auto;
-    overflow-x: hidden;  
-    /* overflow-y: hidden;   */
+    overflow-x: auto;  
     width: 100%;
     background-color: #F5F5F7;
 
-    /* border: 5px solid rgb(236, 192, 17); */
 }
 
 
@@ -76,7 +76,7 @@
     /* box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20); */
     scroll-snap-align: start;
 
-    border: 5px solid black;
+ 
   
   
 }
@@ -99,7 +99,7 @@
 
 .div-nomeMobile-produto{
     width: 100%;
-    border: 2px solid rgba(58, 0, 128, 0.732);
+
     /* text-align: center; */
     
 }

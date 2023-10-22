@@ -115,4 +115,8 @@ scrollLeftButton.addEventListener('click', () => {
       
 
  
-
+       window.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+            e.preventDefault();
+        }
+    });
