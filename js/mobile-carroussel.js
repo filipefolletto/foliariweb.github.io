@@ -35,6 +35,17 @@ const creatCardM = (imgs) => {
     h4Nome.innerHTML = `${imgs}`
     
 
+
+     //hover dos cards_______________________________________________________________________________________
+     card.addEventListener('mouseover', () => {
+        card.classList.add('biggerCard');
+
+    });
+    card.addEventListener('mouseout', () => {
+        card.classList.remove('biggerCard');
+        
+    });
+
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
 

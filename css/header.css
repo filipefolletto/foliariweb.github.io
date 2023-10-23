@@ -73,8 +73,13 @@
     padding-bottom: 20vh;
     padding-top: 70px;
     gap: 20px;
-   
 }
+
+.header-section-button button{
+    padding: 10px 50px;
+    max-width: 255px;
+ }
+
 
 
 #confira-nosso-catalogo,#entre-em-contato{
@@ -85,12 +90,19 @@
     font-weight: 400;
     color: #212121;
     text-align: center;
+    cursor: pointer;
+    position: relative;
 }
 
-.header-section-button button{
-   padding: 10px 50px;
-   max-width: 255px;
+#zapBotton{
+    position: absolute;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translateX(-50%);
+   
 }
+
 
 .header-section-button button:hover{
     background-color: #4385C2;
@@ -101,6 +113,7 @@
 #confira-nosso-catalogo:hover, #entre-em-contato:hover{
     color: #ffffff;
 }
+
 
 
 
@@ -148,7 +161,23 @@
     font-weight: 400;
     color: #212121;
     text-align: center;
+    position: relative;
+    cursor: pointer;
 }
+
+#zapBotton-duplicate{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translateX(-50%);
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+
+   
+}
+
 
 .header-section-button-duplicate button{
    padding: 10px 50px;

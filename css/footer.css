@@ -33,6 +33,7 @@
     padding: 10px;
     /* stroke: #ff7300 */
     /* stroke-width: 1; */
+    cursor: pointer;
 }
 
 .span-social{
@@ -68,6 +69,7 @@
     padding: 10px;
     /* stroke: #ff7300 */
     /* stroke-width: 1; */
+    cursor: pointer;
 }
 
 .span-social-mobile{
@@ -93,7 +95,7 @@
         /* justify-content: space-between; */
         /* max-width: 1512px; */
         /* margin: 0 auto; */ 
-        border: 3px solid pink;   
+        /* border: 3px solid pink;    */
     }
 
     .footer-conteudo{
