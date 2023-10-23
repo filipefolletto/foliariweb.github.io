@@ -52,7 +52,7 @@
 
   /* congig 2 container div CARDS */
 .div-containerMobile-produtos{
-    overflow-x: auto;  
+    overflow-x: auto; 
     width: 100%;
     background-color: #F5F5F7;
 
@@ -133,33 +133,6 @@
 
 
 /*BUTTONS de rolagem carocel______________________________________________________________________________  */
-.previus-cardsM, .next-cardsM{
-    all: unset;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    margin-top: 12%; 
-    transition: opacity 0.7s ease;
-    z-index: 2;
-
-
-
-}
-.next-cardsM{
-    left: 94%;
-}
-.previus-cardsM{
-    left: 2%;
-}
-
-.shower {
-    opacity: 0.7;
-}
-
-.next-cardsM:hover , .previus-cardsM:hover {
-    opacity: 1;
-    
-}
 
 
 
