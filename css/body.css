@@ -67,7 +67,7 @@
 .section-nossoTime{
     width: 100%;
     /* height: 570px; */
-    height: 72vh;
+    /* height: 65vh; */
     background: rgb(255, 255, 255);
     /* border: 2px solid rgb(38, 60, 185); */
 }
@@ -225,11 +225,12 @@
 
     .section-nossoTime{
         width: 100%;
-        height: 83.2vh;
+        height: 100%;
     }
     
     .section-conteudo{       
-     
+        
+        max-height: 80%;
         margin: 0px auto;
         padding: 3.5%;
     }

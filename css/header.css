@@ -100,7 +100,7 @@
     top: 10%;
     right: 0;
     transform: translateX(-50%);
-   
+    border-radius: 50%;
 }
 
 
@@ -174,8 +174,8 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
+    border-radius: 50%;
 
-   
 }
 
 
@@ -209,9 +209,6 @@
   
 }
 
-/* .header-conteudo{
-    padding: ;
-} */
 
 .header-section{
         display: flex;
