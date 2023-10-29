@@ -118,8 +118,10 @@ const creatCardNav = (imgs, index) => {
 
 
 
+
 let menuAberto = false; // Inicialmente, o menu está fechado
 let elementosAdicionados = false; // Inicialmente, nenhum elemento foi adicionado
+let timeoutIDs = []; // Armazena os IDs de timeout para cancelar quando o menu é fechado
 
 mobileMenu.addEventListener('click', () => {
     if (!menuAberto) {
@@ -127,15 +129,19 @@ mobileMenu.addEventListener('click', () => {
         if (!elementosAdicionados) {
             elementosAdicionados = true;
             fotosNav.forEach((imgs, index) => {
-                setTimeout(() => {
+                const timeoutID = setTimeout(() => {
                     const linhaImgsLinks = creatCardNav(imgs, index);
                     paiCardNav.appendChild(linhaImgsLinks);
-                }, 500 * (index + 1));
+                }, 500 * (index + 1))
+                timeoutIDs.push(timeoutID);
             });
         }
     } else {
-        // Fecha o menu removendo os elementos
+        // Fecha o menu removendo os elementos e interrompendo os timeouts
         elementosAdicionados = false;
+        timeoutIDs.forEach(timeoutID => {
+            clearTimeout(timeoutID); // Cancela os timeouts agendados
+        });
         const elementosNav = document.querySelectorAll('.nav-list-li');
         elementosNav.forEach(elemento => {
             elemento.classList.remove("navLinkFadeAnimation");
@@ -149,15 +155,6 @@ mobileMenu.addEventListener('click', () => {
 
     menuAberto = !menuAberto; // Alterna o estado do menu
 });
-
-
-// const loadGame = () => {
-//    fotosNav.forEach((imgs) => {
-
-//        const cardImgs = creatCardM(imgs)
-//        paiCardNav.appendChild(cardImgs)
-//     });
-// }
 
 
 
