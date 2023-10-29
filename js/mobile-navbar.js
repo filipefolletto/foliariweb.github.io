@@ -91,6 +91,18 @@ const creatCardNav = (imgs, index) => {
    
     linkLista.appendChild(spanLista)
 
+
+
+    imgLista.addEventListener('mouseover', () => {
+        imgLista.classList.add('biggerCard');
+
+    });
+    imgLista.addEventListener('mouseout', () => {
+        imgLista.classList.remove('biggerCard');
+        
+    });
+
+
     containerImgLista.appendChild(imgLista)
     containerLinkLista.appendChild(linkLista)
     

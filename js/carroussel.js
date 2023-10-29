@@ -52,7 +52,6 @@ const creatCard = (imgs) => {
         
     });
 
-
     
     // front.style.backgroundImage = `url('../images/${fotos}.png')`
 
