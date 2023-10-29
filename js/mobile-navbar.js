@@ -36,8 +36,129 @@ class MobileNavbar {
 
 const mobileNavbar = new MobileNavbar(
     ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
+    ".pai-list-mobile",
+    ".nav-list-li",
 );
 
 mobileNavbar.init();
+
+
+
+
+
+
+// ///////////////////////////////////////
+
+
+
+
+const paiCardNav = document.querySelector(".nav-list")
+const mobileMenu = document.querySelector(".mobile-menu")
+
+
+const fotosNav= [ 
+'colchoes',
+'boxes',
+'cabeceiras',
+'cadeiras',
+'poltronas',
+'acessorios',
+'vestuarios',
+'dreamspet'
+]
+
+
+const createElementNav = (tag, className) => {
+    const elementNav = document.createElement(tag)
+    elementNav.className = className;
+    return elementNav
+}
+
+
+
+const creatCardNav = (imgs, index) => {
+    const listaPai = createElementNav('li', 'nav-list-li')
+
+
+    const containerImgLista = createElementNav('div', 'li-container-img')
+    const imgLista = createElementNav('img', 'nav-list-img')
+    imgLista.src = `../img/imgNavMenu/${imgs}.png`
+
+    const containerLinkLista = createElementNav('div', 'li-container-links')
+    const linkLista = createElementNav('a', 'nav-list-a')
+    const spanLista = createElementNav('span', '')
+    spanLista.innerHTML = `${imgs}`
+   
+    linkLista.appendChild(spanLista)
+
+    containerImgLista.appendChild(imgLista)
+    containerLinkLista.appendChild(linkLista)
+    
+
+    listaPai.appendChild(containerImgLista)
+    listaPai.appendChild(containerLinkLista)
+
+    listaPai.classList.add("navLinkFadeAnimation");
+
+    return listaPai
+}
+
+
+
+
+let menuAberto = false; // Inicialmente, o menu está fechado
+let elementosAdicionados = false; // Inicialmente, nenhum elemento foi adicionado
+
+mobileMenu.addEventListener('click', () => {
+    if (!menuAberto) {
+        // Abre o menu
+        if (!elementosAdicionados) {
+            elementosAdicionados = true;
+            fotosNav.forEach((imgs, index) => {
+                setTimeout(() => {
+                    const linhaImgsLinks = creatCardNav(imgs, index);
+                    paiCardNav.appendChild(linhaImgsLinks);
+                }, 500 * (index + 1));
+            });
+        }
+    } else {
+        // Fecha o menu removendo os elementos
+        elementosAdicionados = false;
+        const elementosNav = document.querySelectorAll('.nav-list-li');
+        elementosNav.forEach(elemento => {
+            elemento.classList.remove("navLinkFadeAnimation");
+        });
+        setTimeout(() => {
+            elementosNav.forEach(elemento => {
+                paiCardNav.removeChild(elemento);
+            });
+        }, 500);
+    }
+
+    menuAberto = !menuAberto; // Alterna o estado do menu
+});
+
+
+// const loadGame = () => {
+//    fotosNav.forEach((imgs) => {
+
+//        const cardImgs = creatCardM(imgs)
+//        paiCardNav.appendChild(cardImgs)
+//     });
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
