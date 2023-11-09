@@ -190,11 +190,6 @@
     
     .nav-list{
         display: flex;
-        /* position: absolute; */
-        /* top: 0vh; */
-        /* right: 0; */
-        /* width: 100vw; */
-        height: 80vh;
         padding: 12%;
         background: #fff;
         flex-direction: column;
@@ -207,6 +202,7 @@
     }
 
     .nav-menu-logo{
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
