@@ -28,7 +28,7 @@ const creatCardM = (imgs) => {
     const divCardImg = createElementM('div', 'div-cardMobile-img')
     const imgProduto = createElementM('img', 'imgMobileProduto')
     
-    imgProduto.src = `../img/mobileCarrocel/${imgs}.png`
+    imgProduto.src = `img/mobileCarrocel/${imgs}.png`
 
     const divNomeProduto = createElementM('div', 'div-nomeMobile-produto')
     const h4Nome = createElementM('h4', 'nomeProdutoMobile')
