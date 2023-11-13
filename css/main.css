@@ -2,11 +2,11 @@
 .main-carrocel{
     background-color: #EFEFEF;
     width: 100%;
-    /* order: 2; */
+  
 }
 
 .main-container{
-    /* height: 300px; */
+    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -107,19 +107,7 @@
 }
 
 
-/* 
-.saibaMais{
-    border-radius: 30px;
-    background: rgba(67, 133, 194, 0.70);
-    width: 138px;
-    height: 31px;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px; 
 
-} */
 
 
 @media (max-width: 500px) {
