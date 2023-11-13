@@ -82,7 +82,7 @@ const creatCardNav = (imgs, index) => {
 
     const containerImgLista = createElementNav('div', 'li-container-img')
     const imgLista = createElementNav('img', 'nav-list-img')
-    imgLista.src = `../img/imgNavMenu/${imgs}.png`
+    imgLista.src = `img/imgNavMenu/${imgs}.png`
 
     const containerLinkLista = createElementNav('div', 'li-container-links')
     const linkLista = createElementNav('a', 'nav-list-a')
