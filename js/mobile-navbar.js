@@ -77,6 +77,7 @@ const createElementNav = (tag, className) => {
 
 
 const creatCardNav = (imgs, index) => {
+
     const listaPai = createElementNav('li', 'nav-list-li')
 
 
@@ -122,9 +123,12 @@ const creatCardNav = (imgs, index) => {
 let menuAberto = false; // Inicialmente, o menu está fechado
 let elementosAdicionados = false; // Inicialmente, nenhum elemento foi adicionado
 let timeoutIDs = []; // Armazena os IDs de timeout para cancelar quando o menu é fechado
+let elemento = document.querySelector('.pai-list-mobile');
 
 mobileMenu.addEventListener('click', () => {
     if (!menuAberto) {
+        elemento.style.display = 'flex'
+
         // Abre o menu
         if (!elementosAdicionados) {
             elementosAdicionados = true;
@@ -137,6 +141,7 @@ mobileMenu.addEventListener('click', () => {
             });
         }
     } else {
+        elemento.style.display = 'none'
         // Fecha o menu removendo os elementos e interrompendo os timeouts
         elementosAdicionados = false;
         timeoutIDs.forEach(timeoutID => {
