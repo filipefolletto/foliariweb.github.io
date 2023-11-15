@@ -127,10 +127,12 @@ let elemento = document.querySelector('.pai-list-mobile');
 
 mobileMenu.addEventListener('click', () => {
     if (!menuAberto) {
+        
         elemento.style.display = 'flex'
 
         // Abre o menu
         if (!elementosAdicionados) {
+
             elementosAdicionados = true;
             fotosNav.forEach((imgs, index) => {
                 const timeoutID = setTimeout(() => {
@@ -141,6 +143,7 @@ mobileMenu.addEventListener('click', () => {
             });
         }
     } else {
+
         elemento.style.display = 'none'
         // Fecha o menu removendo os elementos e interrompendo os timeouts
         elementosAdicionados = false;

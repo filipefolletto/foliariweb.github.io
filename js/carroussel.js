@@ -52,18 +52,14 @@ const creatCard = (imgs) => {
         
     });
 
-    
-    // front.style.backgroundImage = `url('../images/${fotos}.png')`
+  
 
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
 
     card.appendChild(divNomeProduto)
     card.appendChild(divCardImg)
-    // card.appendChild(saibaMais)
-
     
-    // console.log(paiCard)
     return card
 
     // card.setAttribute('data-personagem', personagem)
