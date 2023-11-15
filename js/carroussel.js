@@ -27,14 +27,11 @@ const creatCard = (imgs) => {
 
     const divCardImg = createElement('div', 'div-card-img')
     const imgProduto = createElement('img', 'imgProduto')
-    // imgProduto.src = `url(../img/${fotos}.png)`
+  
     imgProduto.src = `img/carroucelDesktop/${imgs}.png`
 
-    // const saibaMais = createElement('button', 'saibaMais')
-    // saibaMais.innerHTML = `Saiba mais`
-  
-
     const divNomeProduto = createElement('div', 'div-nome-produto')
+    
     const h4Nome = createElement('h4', 'nomeProduto')
     h4Nome.innerHTML = `${imgs}`
 

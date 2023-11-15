@@ -33,48 +33,6 @@
 }
 
 
-.card-produto{
-    display: flex;
-    flex-direction: column;
-    margin: 2% .9% 5% 3%;
-    padding: 22px 24px;
-    align-items: flex-start;
-    gap: 40px;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.90);
-    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.50);
-    scroll-snap-align: start;
-    cursor: pointer;
-  
-}
-
-
-.biggerCard{
-    background: rgba(255, 255, 255, 0.321);
-    transform: scale(1.03);
-    transition: transform 2s ease;
-    position: relative;
-    z-index: 1;
-}
-
-
-.imgProduto {
-    width: 368px;
-    height: 249px; 
-    border-radius: 20px;
-    background-position: center;
-}
-
-
-.nomeProduto{
-    font-weight: 400;
-    color: black;
-    font-size: 34px;
-    line-height: 24px;
-    word-wrap: break-word;
-    width: 100%;
-    text-transform: capitalize;
-}
 
 
 /*BUTTONS de rolagem carocel______________________________________________________________________________  */

@@ -6,21 +6,15 @@
     flex-wrap: wrap; 
 }
 
-
 .linhas-size{
     max-width: 1512px;
     margin: 0 auto;
 }
 
-
 .linhas-size2{
     width: 100%;
 
 }
-
-
-
-
 
 .FeaturesAndBenefits{
     display: flex;
@@ -37,20 +31,12 @@
     
 }
 
-
 .features h4, .benefits h4{
     padding-bottom: 20px;
 }
 .features p, .benefits p{
     padding-bottom: 13px;
 }
-
-
-
-
-
-
-
 
 
 /*---------- Nosso Time section-------------------*/       

@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,65 +7,53 @@
 }
 
 body{
-     width: 100%;
+   
+    width: 100%;
     background-color: #F5F5F7;
     font-family: Roboto, "Helvetica Neue", Helvetica;
     border: 1px solid black;
 } 
 
-/* ----------------- */
-
 main{
-    max-width: 1512px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(113, 3, 100);
-}
-
-/* --------------- */
-
-.header-container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 3px solid orange;
-}
-
-.div-logo-foliari{
-    border: 3px solid black;
-}
-
-.img-logo{
-    border: 3px solid blue;
+    border: 6px solid rgb(113, 3, 100);
+   
 }
 
 
-.div-links-header{
-    border: 3px solid green;
-    
+#links {
+    color:black;
+   
+}
+#links:hover {
+    color: #4385C2;
 }
 
 
 /* ----------- */
 
-.section-grid{
-    width: 100%;
-    border: 3px solid rgb(89, 5, 106);
+.grid-camas{
+    margin: 0 auto;
+    max-width: 1512px;
+    display: flex;
+    padding: 1.4% 7.13%;
+    border: 6px solid blue;
+    gap: 48px 32px;
+   
 }
 
-.section-container{
+.section-container-camas{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     width: 100%;
-    /* max-width: 800px; */
     column-gap: 32px;
     row-gap: 48px ;
-    /* background-color: red; */
-    /* margin: 0 auto; */
+    border: 6px solid rgb(102, 255, 0);
    
 }
+
 
 /* 
 -----A propriedade grid-template-columns é usada para definir as colunas em um layout de grade CSS. A declaração repeat(5, 1fr) é uma forma abreviada de especificar a largura das colunas em uma grade.
@@ -74,19 +63,4 @@ main{
 
 
 
-/* -----CARD-------- */
 
-.cards-grid{
-    /* aspect-ratio: 3/4; */
-    display: flex;
-    flex-direction: column;
-    width: 368px;
-    height: 448px;
-    border: 2px solid red;
-
-    
-    padding: 22px 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-}
