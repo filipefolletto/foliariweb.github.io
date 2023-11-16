@@ -21,7 +21,7 @@ const creatCard = (img) => {
     const card = createElement('div', 'card-produto')
 
     const divCardImg = createElement('div', 'div-card-img')
-    const imgProduto = createElement('img', 'imgProduto')
+    const imgProduto = createElement('img', 'img-produto-card')
     
     imgProduto.src = ` ../img/grid/${img}.png`
 
