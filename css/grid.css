@@ -81,7 +81,7 @@ button{
     margin: 0px auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .section-container-camas{
         grid-template-columns: repeat(1, auto); 
     }
