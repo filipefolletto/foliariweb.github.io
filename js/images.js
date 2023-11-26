@@ -9,7 +9,6 @@ const fotosNav= [
 'colchoes',
 'boxes',
 'cabeceiras',
-'cadeiras',
 'dreamspet',
 'poltronas',
 'vestuarios',
