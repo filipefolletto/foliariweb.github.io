@@ -4,7 +4,6 @@ const fotos = [
 'colchoes',
 'boxes',
 'cabeceiras',
-'cadeiras',
 'dreamspet',
 'poltronas',
 'vestuario',
@@ -28,7 +27,7 @@ const creatCard = (imgs) => {
     const divCardImg = createElement('div', 'div-card-img')
     const imgProduto = createElement('img', 'imgProduto')
   
-    imgProduto.src = `img/carroucelDesktop/${imgs}.png`
+    imgProduto.src = `img/carroucelDesktop/${imgs}.jpg`
 
     const divNomeProduto = createElement('div', 'div-nome-produto')
     
