@@ -55,9 +55,15 @@ button{
     box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     margin: 2% 4% 5% 4%;
-    
+    transform: scale(1.04);
+    transition: all  0.5s ease;
+    /* border: 5px solid rgba(255, 255, 255, 0.90); */
     padding: 5.2% 5.7%;  
     /* width: calc(368px + 10%);  */
+}
+
+.card-produto:hover{
+    /* border: 5px solid #03B59B; */
 }
 
 
