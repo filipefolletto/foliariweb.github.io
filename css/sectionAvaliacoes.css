@@ -3,7 +3,6 @@
 .section-avaliacoes{
     background-color: #EFEFEF;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .container-avaliacoes{
@@ -12,7 +11,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* border: 5px solid rgb(11, 35, 220); */
 }
 
 
@@ -20,7 +18,6 @@
 
 
 .conteudo-avaliacoes-logo{
-    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     flex-wrap: nowrap; 
@@ -31,22 +28,15 @@
 
 .div-logoipsum-white, .div-logoipsum-dark{
     flex: 1;
-    /* border: 3px solid rgb(21, 15, 4) */
+   
 }
 
-/* .div-logoipsum-white{
-    display: flex;
-    justify-content: flex-end;
-} */
 
 .div-logoipsum-white img {
     width: 212px;
     height: 48.182px;
     flex-shrink: 0;
-    
     margin: 66px 0 86px 378px;
-    /* margin: 66px 0 86px 360px; */
-    /* padding-left: 417px; */
 }
 
 
@@ -66,8 +56,7 @@
 .conteudo-avaliacoes-nota{
     display: flex;
     flex-wrap: nowrap; 
-    /* width: 100%; */
-     /* border: 4px solid rgb(170, 199, 24); */
+
 }
 
 
@@ -75,9 +64,9 @@
     display: flex;
     min-width: 258px;
     width: 258px;
-    /* flex: 1; */
+
     flex-direction: column;
-    /* border: 2px solid rgb(0, 13, 255); */
+
 }
 
 .nota-avaliacoes-numero{
@@ -95,8 +84,6 @@
     font-weight: 400;
     line-height: 27px;
     word-wrap: break-word;
-
-    /* text-align: center; */
     margin: 0 0 0 5px;
  
 }
@@ -108,8 +95,6 @@
     font-weight: 400;
     line-height: 27px;
     word-wrap: break-word;
-
-    /* text-align: center; */
     margin: 0 0 0 5px;
  
 }
@@ -122,12 +107,7 @@
     font-family: Roboto;
     font-weight: 400;
     line-height: 15px;
-    /* text-align: center; */
-
     margin: 15px 0 13px 0;
-    /* margin: 15px 0 0 135px; */
-    /* padding-bottom: 23px; */
-    /* border: 2px solid red; */
 }
 
 
@@ -139,11 +119,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px; /* 100% */
-    /* margin: 14px 0 0 139px; */
-
-
-    /* text-align: center; */
+    line-height: 15px; 
     margin-bottom: 7px;
 }
 
@@ -152,8 +128,6 @@
 
 
 .nota-avaliacoes-titulos{
-    /* flex: 2; */
-    /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
     margin: 0 180px 0 85px ;
@@ -161,8 +135,6 @@
 
 .TrustedByNumerous, .nomeERelato{
     margin: 0 0px 0 150px;
-
-    /* border: 3px solid red; */
 }
 
 .TrustedByNumerous h5{
@@ -171,17 +143,16 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 36px; /* 120% */
+    line-height: 36px; 
 }
 
 .h6-google{
     color: #212121;
-    /* text-align: center; */
     font-family: Poppins;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 13px; /* 100% */
+    line-height: 13px; 
 
     margin: 32px 0 17px 0;
 }
@@ -196,11 +167,10 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 105.882% */
+    line-height: 18px; 
 }
 
 .p-jessica{
-    /* padding-top: 9px; */
     margin-left: 1%;
     
 }
@@ -213,7 +183,6 @@
 
 .div-featured{
     display: none;
-    /* border: 2px solid yellow; */
     margin-top: 1%;
     
 }
@@ -240,9 +209,7 @@
         display: none;
     }
 
-    /* .div-trustedByNumerous{
-        display: block;
-    } */
+ 
     .container-avaliacoes{
         width: 100%;
         height: 33vh;
@@ -260,11 +227,11 @@
     
     .div-logoipsum-white{
         flex: 2;
-        /* border: 3px solid rgb(21, 15, 4) */
+    
     }
     .div-logoipsum-dark{
         flex: 2;
-        /* border: 3px solid rgb(21, 15, 4) */
+    
     }
 
     
@@ -274,8 +241,7 @@
         flex-shrink: 0;
         
         margin: 10% 0 5% 30%;
-        /* margin: 66px 0 86px 360px; */
-        /* padding-left: 417px; */
+        
     }
     
     .div-logoipsum-dark img{
@@ -326,8 +292,7 @@
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
-        line-height: 16.5px; /* 165% */
-
+        line-height: 16.5px;
         margin-right: 37%;
     }
     
