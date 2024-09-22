@@ -88,6 +88,7 @@
     text-align: center;
     cursor: pointer;
     position: relative;
+    padding:0%;
 }
 
 #zapBotton{
@@ -161,24 +162,7 @@
     cursor: pointer;
 }
 
-#zapBotton-duplicate{
-    position: absolute;
-    top: 10%;
-    right: 0;
-    transform: translateX(-50%);
 
-    width: 30px;
-    height: 30px;
-    flex-shrink: 0;
-    border-radius: 50%;
-
-}
-
-
-.header-section-button-duplicate button{
-   padding: 10px 50px;
-   max-width: 255px;
-}
 
 .header-section-button-duplicate button:hover{
     background-color: #4385C2;
@@ -292,12 +276,3 @@
     
     
 }
-/* @media (min-width: 360px)  {
-    .header-section-image img{
-        width: 340px;
-        height: 347px;
-        
-    }
-    
-    
-} */
