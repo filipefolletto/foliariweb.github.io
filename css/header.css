@@ -1,7 +1,7 @@
 .header {
     width: 100%;
 
-    background: linear-gradient(100deg, rgba(67, 133, 194, 0.19) 0%, rgba(192, 219, 244, 0.19) 99.58%), linear-gradient(259deg, rgba(3, 181, 155, 0.79) 0.77%, #CDF3EC 38.81%, #4DDECD 100%, #20EBBE 100%), radial-gradient(50% 54.64% at 50% 45.36%, rgba(0, 0, 0, 0.00) 0%, rgba(42, 200, 133, 0.20) 100%);
+    background: linear-gradient(100deg, rgba(6, 92, 173, 0.19) 0%, rgba(14, 44, 71, 0.19) 99.58%), linear-gradient(259deg, rgba(21, 155, 135, 0.79) 0.77%, #CDF3EC 38.81%, #34a799 100%, #4a9b89 100%), radial-gradient(50% 54.64% at 50% 45.36%, rgba(0, 0, 0, 0.00) 0%, rgba(42, 200, 133, 0.20) 100%);
 
 }
 .container{
@@ -43,7 +43,7 @@
 }
 
 .header-section-titles-intrudution  h1{
-    color: #633102;
+    color: #221101;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -77,8 +77,6 @@
     padding: 10px 50px;
     max-width: 255px;
  }
-
-
 
 #confira-nosso-catalogo,#entre-em-contato{
     width: 255px;
