@@ -38,12 +38,11 @@
 .div-certificados-imgs{
     display: flex;
     width: 100%;
-    border: 2px solid rgb(34, 0, 255);
 }
 
 .div-certificados-imgs img{
   margin: 0 auto;
-  border: 2px solid rgb(0, 255, 34);
+
 
 }
 

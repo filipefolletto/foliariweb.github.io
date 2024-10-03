@@ -1,15 +1,12 @@
                              /* config gerais dos containers */
 .carrocelMobile-container{  
     background-color: #EFEFEF;
-
     display: none;
     width: 100%;
-    /* order: 2; */
     position:static;
 }
 
 .carrocelMobile-conteudo{
-    /* height: 300px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -29,9 +26,7 @@
 
 
           /* congig 1 container div TITULO */
-/* .div-nossos-produtosM{
 
-} */
 
 .titulo-nossos-produtosM {
     color: #212121;
@@ -63,19 +58,12 @@
 
 
 
-
 .card-produtoM{
     width: 104px;
-    /* height: 63px;  */
     display: flex;
     flex-direction: column;
     margin: 3% 0% 5% 3%;
-    /* padding: 22px 24px; */
     align-items: flex-start;
-    /* gap: 40px; */
-    /* border-radius: 30px; */
-    /* background: rgba(255, 255, 255, 0.90); */
-    /* box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20); */
     scroll-snap-align: start;
     cursor: pointer;
 }
@@ -83,7 +71,7 @@
 
 .div-cardMobile-img{
     width: 100%;
-    /* border: 2px solid rgb(215, 15, 178); */
+ 
 }
 
 .imgMobileProduto {
@@ -92,7 +80,7 @@
     border-radius: 20px;
     background-position: center;
 
-    /* border: 2px solid green; */
+    
 }
 
 

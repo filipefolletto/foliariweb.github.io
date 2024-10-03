@@ -1,13 +1,13 @@
 const paiCard = document.querySelector(".div-container-produtos")
 
 const fotos = [ 
-'colchoes',
-'boxes',
+'Colchões',
+'box',
 'cabeceiras',
-'dreamspet',
+'Linha PET',
 'poltronas',
-'vestuario',
-'acessorios'
+'vestuário',
+'acessórios'
 ]
 
 
