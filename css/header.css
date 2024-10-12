@@ -21,7 +21,7 @@
 }
 .header-section{
     display: flex;
-    flex-direction: row;
+   
     
 }
 
@@ -64,16 +64,17 @@
 }
 /* botoes */
 .header-section-button{
+  
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     padding-bottom: 20vh;
-    padding-top: 70px;
+    padding-top: 5vh;
     gap: 20px;
+    order: 2
 }
 
 .header-section-button button{
-    padding: 10px 50px;
+    padding: 5% 5%;
     max-width: 255px;
  }
 
@@ -114,6 +115,7 @@
 
 
 .header-section-image{
+   
     width: 50%;
     display: flex;
     /* align-items: center; */
@@ -121,7 +123,8 @@
 
 }
 .header-section-image img{
-    width: 532px;
+    padding: 4%;
+    
     height: 537px;
 }
 
@@ -199,8 +202,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 32px;
-    padding-top: 27px ;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
     gap: 20px;
 }
 
@@ -216,9 +219,8 @@
 
 .header-section{
         display: flex;
-        flex-direction: column;`    21q
+        flex-direction: column;
     
-        
 } 
 
 .header-section-titles-intrudution{
@@ -229,6 +231,7 @@
 
 .header-section-titles{
     display: flex;
+    order: 1;
     flex-direction: column;
     width: 100%;
     padding-left: 2%;
@@ -256,6 +259,7 @@
 }
 
 .header-section-image{
+    order: 0;
     width: 100%;
 
 }
