@@ -39,7 +39,7 @@
 
                         <div class="nav-sec-links">
                             <div class="nav-links">
-                                <a href="web/grid.html">Serviços</a>
+                                <a href="web/catalogo.html">Serviços</a>
                                 <a href="">Sobre</a>
                                 <a href="">Contato</a>
                             </div>
@@ -78,25 +78,22 @@
                                     </p>
                                 </div>
                                 <div class="header-section-button"> 
+                                    <button id="entre-em-contato" onclick="document.getElementById('fale-com-o-especialista').scrollIntoView({ behavior: 'smooth' });">FALE COM O(A) ESPECIALISTA</button>
+                                    <button id="catalogo" onclick="document.getElementById('carrocel').scrollIntoView({ behavior: 'smooth' });" >CATÁLOGO</button> 
 
-                                    <button id="confira-nosso-catalogo">CATÁLOGO</button> 
-                                    <button id="entre-em-contato">FALE COM O(A) ESPECIALISTA</button>
+                                    
+                                   
                                 </div>
                                 
 
                             </div>
-                            
-                            
+                        
 
                            
                             <div class="header-section-image">
                                 <img src="img/imagem1.jpg"></img> 
                             </div>
-<!-- button duplic none-->
-                            <!--<div class="header-section-button-duplicate button-duplicate-none"> 
-                                <button id="confira-nosso-catalogo-duplicate">CATÁLOGO 2</button> 
-                                <button id="entre-em-contato-duplicate">FALE COM O(A) ESPECIALISTA 2</button>
-                            </div>-->
+
                     </section> 
                 </div>
 
@@ -109,7 +106,7 @@
 
         
     <!-- main CARROCEL -->
-        <main class="main-carrocel">
+        <main class="main-carrocel" id="carrocel">
             <div class="main-container">
 
                 <div class="div-nossasLinhas">
@@ -241,7 +238,7 @@
 
 
     <!-- Sectoin NOSSO TIME -->
-        <section class="section-nossoTime">
+        <section class="section-nossoTime" id="fale-com-o-especialista">
            
             <div class="container-ourTeam"> 
                 

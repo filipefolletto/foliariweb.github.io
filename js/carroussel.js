@@ -22,15 +22,21 @@ const createElement = (tag, className) => {
 
 
 const creatCard = (imgs) => {
+
+    
+   
+
     const card = createElement('div', 'card-produto')
     const linkproduto = createElement('a','link-produto')
+
+    linkproduto.href =  `web/${imgs}.html` 
 
     const divCardImg = createElement('div', 'div-card-img')
     const imgProduto = createElement('img', 'imgProduto')
 
    
     // linkproduto.href =  `foliari.com.br/web/${img}` 
-    linkproduto.href =  `/foliariweb.github.io/web/grid.html` 
+   
 
   
     imgProduto.src = `img/carroucelDesktop/${imgs}.jpg`
@@ -57,7 +63,7 @@ const creatCard = (imgs) => {
     
     card.addEventListener('click', () => {
         
-        window.location.href = '/foliariweb.github.io/web/grid.html'
+        window.location.href = `web/${imgs}.html` 
 
     })
 
@@ -65,6 +71,7 @@ const creatCard = (imgs) => {
 
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
+
 
     card.appendChild(divNomeProduto)
     card.appendChild(divCardImg)

@@ -18,11 +18,13 @@ const createElement = (tag, className) => {
 }
 
 const creatCard = (img) => {
+    
+
     const card = createElement('div', 'card-produto')
 
     const divCardImg = createElement('div', 'div-card-img')
     const imgProduto = createElement('img', 'img-produto-card')
-    imgProduto.src = ` ../img/grid/${img}.png`
+    imgProduto.src = ` ../img/produtos/${img}.png`
 
     const saibaMais = createElement('button', 'saibaMais')
     saibaMais.innerHTML = `Saiba mais`
@@ -38,19 +40,18 @@ const creatCard = (img) => {
 
 
 
+    
 
     divCardImg.appendChild(imgProduto)
     divNomeProduto.appendChild(h4Nome)
 
+   
     card.appendChild(linha)
     card.appendChild(divNomeProduto)
     card.appendChild(saibaMais)
     card.appendChild(divCardImg)
     
-
-
     return card
-
     
 }
 
